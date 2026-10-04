@@ -20,6 +20,12 @@ For an enterprise assistant or workflow, describe the task and the information i
 
 Contact us about your product specification, branding and manufacturing requirements. The production arrangement, sample plan and commercial conditions need to be agreed for the project.
 
+## AI workflow development
+
+Our project experience includes AI Agent workflow development. For a new requirement, describe the trigger, process steps and expected output. Include the systems involved and the actions that need approval.
+
+[NEED: An authorised workflow project summary showing our actual contribution.]
+
 ## How a project discussion starts
 
 1. Share the requirement, target users and intended market.

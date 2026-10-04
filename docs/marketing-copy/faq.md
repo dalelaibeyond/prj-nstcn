@@ -9,7 +9,7 @@ Path: `/faq/`。目标：回答企业采购前的主要问题。
 Start here when preparing your product or business workflow requirement.
 
 ### What does NEXSTACK AI focus on?
-Our main product directions are AI companion toys and AI office assistants. Our development work also includes AI Agent workflows.
+Our product directions include AI companion toys, AI office assistants and AI glasses. Our development work also includes AI Agent workflows.
 
 ### Who should contact you?
 Business decision-makers can contact us about a product idea, office task or custom AI workflow requirement.
@@ -29,6 +29,9 @@ Start with the intended age group, interaction, content and memory requirements.
 ### Can an office assistant use company information?
 Describe the information and tasks involved. We can discuss the required access, permissions and development approach for your project.
 
+### What functions do your AI glasses support?
+Product functions need to be confirmed for the proposed model. Tell us the wearable tasks, interaction and target market you have in mind.
+
 ### Can I request a particular deployment arrangement?
 Include your hosting and data-handling requirements in the brief. Feasibility, dependencies and costs need to be assessed for the proposed scope.
 
@@ -47,5 +50,5 @@ CTA: **Discuss your project** → `/contact/`
 
 H1 备选：`Before you start an AI project`。CTA 备选：`Ask about your requirements`。
 SEO title: AI Product & Development FAQ | NEXSTACK AI
-Meta description: Find answers about AI companion toys, office assistants, custom development, project requirements and contacting NEXSTACK AI.
+Meta description: Find answers about AI companion toys, office assistants, AI glasses, custom development and contacting NEXSTACK AI.
 回复不创造库存、认证、固定价格或数据安全保证。认证答案不代替特定市场专业审查。无需图片。

@@ -44,5 +44,5 @@ We review your requirement and discuss the proposed scope. Pricing, development 
 
 H1 备选：`Discuss your project with NEXSTACK AI`。按钮备选：`Send your requirements` / `Contact our team`。推荐当前版本，描述提交行为，区别于导航 CTA。
 SEO title: Contact NEXSTACK AI | Discuss Your AI Project
-Meta description: Contact NEXSTACK AI about AI companion toys, office assistants or custom workflow development. Share your business and project requirements.
+Meta description: Contact NEXSTACK AI about companion toys, office assistants, AI glasses or custom workflow development. Share your project requirements.
 五字段保持不变；不承诺 24 小时回复。成功提示用于正常发信流程，不声称已确认客户需求。`[NEED: 回复安排、隐私政策和公开联系方式最终核对]`。地图与地址待核实时暂不展示。

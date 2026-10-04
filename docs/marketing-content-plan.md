@@ -4,15 +4,15 @@
 
 ## 定位与内容原则
 
-主推 AI 陪伴玩具和 AI 办公助手。Workflow 开发作为企业方向的支持服务。主要读者是企业决策人，行业和规模仍为工作假设。
+主推 AI 陪伴玩具和 AI 办公助手；用户补充 AI 眼镜为第三类产品，保留展示入口。Workflow 开发作为企业方向的支持服务。主要读者是企业决策人，行业和规模仍为工作假设。
 
-首页采用两条需求入口，共同主 CTA 为 `Discuss your project`。具体页面可采用 `Discuss a companion toy project` 或 `Discuss an office assistant`，均进入 Contact。保留 WhatsApp 与邮件辅助联系。
+首页采用三个产品入口，前两类优先，共同主 CTA 为 `Discuss your project`。各详情可使用具体产品 CTA，均进入 Contact。保留 WhatsApp 与邮件辅助联系。
 
 ## 页面地图与覆盖
 
 现有网站有 25 个内容页面及 404。本次为全部 26 个页面位置提供文案或明确的占位模板，并增加一份全局壳层文案。
 
-三条原有详情不符合最新定位：AI Glasses、Wearable & Imaging、对应零售案例。建议分别改为 workflow 服务、workflow 场景和 workflow 案例。另两条旧案例也改为待补的 workflow 项目模板。当前仅提出替换方案，不改路由、数据或线上内容。
+用户已补充 AI 眼镜，原眼镜及可穿戴页面保留，不替换为 workflow。三条旧示例案例改为待补的真实 workflow 项目模板，不假定仍属于物流、教育或零售。当前仅提出案例路径方案，不改网站。
 
 | 当前页面位置 | 新内容方向 / 文件 | 优先级 | 材料与目标 |
 | --- | --- | --- | --- |
@@ -31,10 +31,10 @@
 | `/terms/` | terms.md | P0 | 网站使用初稿，主体条款待补 |
 | `/products/ai-toys/` | product-companion-toys.md | P0 | 定制陪伴玩具、功能占位 |
 | `/products/ai-office-assistants/` | product-office-assistants.md | P0 | 办公助手、形态与任务占位 |
-| `/products/ai-glasses/` | service-ai-workflows.md | P1 | 建议替换到 `/services/ai-workflows/` |
+| `/products/ai-glasses/` | product-ai-glasses.md | P1 | 眼镜产品归属已确认，功能规格待补 |
 | `/solutions/education-toy-retail/` | solution-companion-products.md | P1 | 候选品牌与产品开发场景 |
 | `/solutions/smart-office-meetings/` | solution-office-work.md | P1 | 企业知识与任务需求 |
-| `/solutions/wearable-imaging/` | solution-workflow-automation.md | P1 | 建议替换为企业 workflow 场景 |
+| `/solutions/wearable-imaging/` | solution-wearable-products.md | P1 | 保留可穿戴产品场景，不预设摄像功能 |
 | `/case-studies/logistics/` | case-workflow-01.md | P1 | 真实 workflow 项目模板 01；不沿用物流结果 |
 | `/case-studies/education/` | case-workflow-02.md | P1 | 项目模板 02；不假定为教育项目 |
 | `/case-studies/retail/` | case-workflow-03.md | P1 | 项目模板 03；不假定为零售项目 |
@@ -49,6 +49,7 @@
 | --- | --- | --- |
 | 陪伴产品开发 | 用户年龄、交互、记忆、样品评估、品牌要求 | 引导定义玩具项目 |
 | 企业办公助手 | 任务、企业资料、人工确认、接入和部署要求 | 引导定义办公助手 |
+| AI 眼镜产品 | 使用场景、交互、设计、功能确认与市场要求 | 引导定义可穿戴产品；规格待补 |
 | Workflow 项目交付 | 触发、步骤、工具、审批、测试、支持 | 展示服务范围并准备真实案例 |
 | 采购与合作 | 开发范围、演示、文件、责任、报价信息 | 降低询盘信息缺口 |
 
@@ -70,6 +71,6 @@
 
 产品参数、可交付状态、演示、样品、MOQ、周期、制造安排、客户授权、认证、公司登记和隐私处理细节均待补。审阅稿使用 `[NEED: ...]` 和 `[MEDIA: ...]`，仅产品/案例占位可明确展示在审阅环境。
 
-现有 Insights 仅展示提纲；全文需扩展模型与模板。Workflow 服务需新增服务路由/模板或调整分类。删除第三产品线、案例替换及路径更改须同步导航、关联、sitemap 和测试。完整 SEO 字段映射需实现核对。
+现有 Insights 仅展示提纲；全文需扩展模型与模板。Workflow 服务文案先放在 Custom，不新增产品线或强制新增路由。案例替换及路径更改须同步导航、关联、sitemap 和测试。完整 SEO 字段映射需实现核对。
 
 详细英文文案与页面索引见 [文案包](marketing-copy/README.md)。
