@@ -1,0 +1,7 @@
+---
+import type { Content } from '../lib/content';
+interface Props { content: Content; ids: string[] }
+const { content: c, ids } = Astro.props;
+const certifications = ids.map(id => c.certifications.find(item => item.id === id)!);
+---
+<ul class="certification-list">{certifications.map(item => <li><div><span>{item.name}</span><p>{item.holder}</p></div><span class:list={{ 'certification-badge': item.status === 'obtained' }}>{c.t(item.status)}</span></li>)}</ul>

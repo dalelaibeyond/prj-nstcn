@@ -1,0 +1,80 @@
+---
+import '../styles/global.css';
+import Brand from '../components/Brand.astro';
+import type { Content } from '../lib/content';
+interface Props { content: Content; title: string; description: string; faq?: boolean }
+const { content: c, title, description, faq = false } = Astro.props;
+const { site, t } = c;
+const hasPlaceholder = site.isPlaceholder || [...c.products, ...c.solutions, ...c.cases, ...c.certifications, ...c.insights].some(item => item.isPlaceholder);
+const noindex = import.meta.env.SITE_ENV !== 'production' || hasPlaceholder;
+const origin = import.meta.env.SITE_ORIGIN || `https://${site.domain}`;
+const canonical = new URL(Astro.url.pathname, origin).href;
+const whatsapp = `https://wa.me/${site.whatsapp.e164}?text=${encodeURIComponent(site.whatsapp.prefill)}`;
+const schema = [
+  { '@context': 'https://schema.org', '@type': 'Organization', name: site.brandName, legalName: site.legalName, url: origin, sameAs: [site.linkedin] },
+  ...(faq ? [{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: site.faq.map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) }] : []),
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
+    <title>{title} | {site.brandName}</title>
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\u003c')} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">{t('skip')}</a>
+    {hasPlaceholder && <div class="review-bar" data-placeholder="true"><div class="container"><strong>{t('review')}</strong><p>{t('reviewNote')}</p></div></div>}
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <Brand name={site.brandName} />
+        <button class="menu-toggle button button--secondary" aria-expanded="false" aria-controls="main-nav" data-open-label={t('menu')} data-close-label={t('closeMenu')}>{t('menu')}</button>
+        <nav class="site-nav" id="main-nav" aria-label={t('primaryNav')}>
+          {site.navigation.map(link => <a href={link.href} aria-current={Astro.url.pathname.startsWith(link.href) ? 'page' : undefined}>{link.label}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main id="main-content" tabindex="-1"><slot /></main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__main">
+          <div class="site-footer__brand"><Brand name={site.brandName} /><p>{t('footerDescription')}</p><p class="small-note">{t('footerNote')}</p></div>
+          <nav aria-label={t('footerNav')}><p class="site-footer__title">{t('footerNav')}</p><ul class="site-footer__links">{site.navigation.slice(0, 6).map(link => <li><a href={link.href}>{link.label}</a></li>)}</ul></nav>
+          <nav aria-label={t('compliance')}><p class="site-footer__title">{t('contact')}</p><ul class="site-footer__links"><li><a href="/contact/">{t('formTitle')}</a></li><li><a href="/compliance/">{t('compliance')}</a></li><li><a href="/faq/">{t('faq')}</a></li><li><a href="/compare/">{t('compare')}</a></li></ul></nav>
+        </div>
+        <div class="site-footer__bottom"><p>{site.legalName} · {t('rights')}</p><div class="site-footer__legal"><a href="/privacy/">{t('privacy')}</a><a href="/terms/">{t('terms')}</a></div></div>
+      </div>
+    </footer>
+    <a href={whatsapp} class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label={`${t('whatsapp')} — ${t('whatsappNote')}`}><span aria-hidden="true">↗</span>{t('whatsapp')}</a>
+    <script>
+      const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
+      const nav = document.querySelector<HTMLElement>('#main-nav');
+      function closeMenu() {
+        nav?.classList.remove('is-open');
+        toggle?.setAttribute('aria-expanded', 'false');
+        if (toggle) toggle.textContent = toggle.dataset.openLabel!;
+      }
+      toggle?.addEventListener('click', () => {
+        const open = toggle.getAttribute('aria-expanded') !== 'true';
+        toggle.setAttribute('aria-expanded', String(open));
+        nav?.classList.toggle('is-open', open);
+        toggle.textContent = open ? toggle.dataset.closeLabel! : toggle.dataset.openLabel!;
+      });
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && toggle?.getAttribute('aria-expanded') === 'true') { closeMenu(); toggle.focus(); }
+      });
+      nav?.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+      matchMedia('(min-width: 64rem)').addEventListener('change', closeMenu);
+    </script>
+  </body>
+</html>

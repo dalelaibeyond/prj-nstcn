@@ -1,0 +1,25 @@
+---
+import type { Content } from '../lib/content';
+interface Props { content: Content }
+const { content: c } = Astro.props;
+const rows = [
+  { label: c.t('compareScene'), cells: c.products.map(p => p.overview) },
+  { label: c.t('compareModel'), cells: c.products.map(p => p.modelCapabilities) },
+  { label: c.t('compareInteraction'), cells: c.products.map(p => p.interaction) },
+  { label: c.t('compareBattery'), cells: c.products.map(p => p.battery) },
+  { label: c.t('compareCert'), cells: c.products.map(p => p.certifications.map(id => { const cert = c.certifications.find(item => item.id === id)!; return `${cert.name}: ${c.t(cert.status)} · ${cert.holder}`; }).join('; ')) },
+  { label: c.t('compareCustom'), cells: c.products.map(p => p.customisationOptions.join(' · ')) },
+];
+---
+<div class="filter-control"><label for="scenario-filter">{c.t('filter')}</label><select id="scenario-filter"><option value="all">{c.t('filterAll')}</option><option value="education">{c.t('filterEducation')}</option><option value="office">{c.t('filterOffice')}</option><option value="wearable">{c.t('filterWearable')}</option></select><p class="small-note" role="status" aria-live="polite" data-filter-status data-label={c.t('filterCount')}>{c.t('filterCount')}: {c.products.length}</p></div>
+<p class="small-note">{c.t('comparisonHint')}</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label={c.t('compareCaption')}><table class="comparison"><caption>{c.t('compareCaption')}</caption><thead><tr><th scope="col">{c.t('compareLine')}</th>{c.products.map(p => <th scope="col" data-scenario={p.scenario}><a class="text-link" href={p.path}>{p.name}</a></th>)}</tr></thead><tbody>{rows.map(row => <tr><th scope="row">{row.label}</th>{row.cells.map((cell, index) => <td data-scenario={c.products[index].scenario}>{cell}</td>)}</tr>)}</tbody></table></div>
+<div class="actions"><a href="/contact/" class="button">{c.t('contact')}<span aria-hidden="true">↗</span></a></div>
+<script>
+  const filter = document.querySelector<HTMLSelectElement>('#scenario-filter');
+  filter?.addEventListener('change', () => {
+    document.querySelectorAll<HTMLElement>('table [data-scenario]').forEach(cell => cell.hidden = filter.value !== 'all' && cell.dataset.scenario !== filter.value);
+    const status = document.querySelector<HTMLElement>('[data-filter-status]')!;
+    status.textContent = `${status.dataset.label}: ${document.querySelectorAll('thead [data-scenario]:not([hidden])').length}`;
+  });
+</script>

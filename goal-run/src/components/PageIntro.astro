@@ -1,0 +1,12 @@
+---
+import type { Content } from '../lib/content';
+interface Props { content: Content; title: string; eyebrow: string; description: string; back?: { href: string; label: string }; sample?: boolean }
+const { content: c, title, eyebrow, description, back, sample } = Astro.props;
+---
+<header class="page-intro"><div class="container">
+  {back && <nav class="breadcrumbs" aria-label={c.t('home')}><a href={back.href}>{back.label}</a><span aria-hidden="true">/</span><span>{eyebrow}</span></nav>}
+  <p class="eyebrow">{eyebrow}</p>
+  {sample && <p class="pill sample-pill">{c.t('sampleCase')}</p>}
+  <h1>{title}</h1>
+  <p class="description">{description}</p>
+</div></header>

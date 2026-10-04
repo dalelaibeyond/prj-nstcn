@@ -1,0 +1,64 @@
+---
+import type { Content } from '../lib/content';
+interface Props { content: Content }
+const { content: c } = Astro.props;
+---
+<form class="contact-form" id="inquiry-form" action="/api/inquiry/" method="post" data-success={c.t('formSuccess')} data-failure={c.t('formFailure')} data-validation={c.t('formValidation')} data-invalid-field={c.t('formInvalidField')} data-submit={c.t('formSubmit')} data-sending={c.t('formSending')}>
+  <h2>{c.t('formTitle')}</h2><p class="small-note">{c.t('formRequired')}</p>
+  <div class="form-grid">{c.site.formFields.map(field => <div class:list={['form-field', { 'form-field--message': field.type === 'textarea' }]}>
+    <label for={`field-${field.key}`}>{field.label}</label>
+    {field.type === 'textarea' ? <textarea id={`field-${field.key}`} name={field.key} placeholder={field.placeholder} required maxlength={field.maxLength} aria-describedby={`error-${field.key}`} /> : <input id={`field-${field.key}`} type={field.type} name={field.key} placeholder={field.placeholder} autocomplete={field.autocomplete} required maxlength={field.maxLength} aria-describedby={`error-${field.key}`} />}
+    <p class="field-error" id={`error-${field.key}`} hidden></p>
+  </div>)}</div>
+  <div class="honeypot" aria-hidden="true"><label for="contact-website">{c.t('honeypot')}</label><input id="contact-website" name="_hp" type="text" tabindex="-1" autocomplete="off" /></div>
+  <input type="hidden" name="_ts" value={Date.now()} />
+  <p class="small-note">{c.t('formPrivacy')} <a class="text-link" href="/privacy/">{c.t('privacy')}</a></p>
+  <p class="form-status" role="status" aria-live="polite" tabindex="-1" hidden></p>
+  <button class="button" type="submit">{c.t('formSubmit')}<span aria-hidden="true">↗</span></button>
+</form>
+<script>
+  const form = document.querySelector<HTMLFormElement>('#inquiry-form');
+  if (form) {
+    const stamp = form.querySelector<HTMLInputElement>('[name="_ts"]')!;
+    stamp.value = String(Date.now());
+    const status = form.querySelector<HTMLElement>('.form-status')!;
+    const button = form.querySelector<HTMLButtonElement>('[type="submit"]')!;
+    const controls = Array.from(form.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('[required]'));
+    const show = (state: string, message: string) => { status.hidden = false; status.dataset.state = state; status.textContent = message; };
+    const clear = (control: HTMLInputElement | HTMLTextAreaElement) => {
+      control.removeAttribute('aria-invalid');
+      const error = document.getElementById(`error-${control.name}`)!;
+      error.hidden = true; error.textContent = '';
+    };
+    controls.forEach(control => control.addEventListener('input', () => clear(control)));
+    form.addEventListener('submit', async e => {
+      e.preventDefault();
+      controls.forEach(clear);
+      status.hidden = true;
+      delete status.dataset.state;
+      button.disabled = true; button.textContent = form.dataset.sending!;
+      try {
+        const values = new URLSearchParams();
+        new FormData(form).forEach((v, k) => values.set(k, String(v)));
+        const response = await fetch(form.action, { method: 'POST', body: values, headers: { Accept: 'application/json' } });
+        const result = await response.json();
+        if (result.ok) {
+          show('success', form.dataset.success!); form.reset(); stamp.value = String(Date.now()); status.focus();
+        } else if (result.fields) {
+          show('error', form.dataset.validation!);
+          result.fields.forEach((key: string) => {
+            const control = controls.find(c => c.name === key);
+            if (!control) return;
+            control.setAttribute('aria-invalid', 'true');
+            const error = document.getElementById(`error-${key}`)!;
+            error.hidden = false; error.textContent = form.dataset.invalidField!;
+          });
+          controls.find(c => c.getAttribute('aria-invalid') === 'true')?.focus();
+        } else { show('error', form.dataset.failure!); status.focus(); }
+      } catch { show('error', form.dataset.failure!); status.focus(); }
+      finally { button.disabled = false; button.textContent = form.dataset.submit!; }
+    });
+    const outcome = new URLSearchParams(location.search).get('outcome');
+    if (outcome) show(outcome === 'sent' ? 'success' : 'error', outcome === 'sent' ? form.dataset.success! : form.dataset.failure!);
+  }
+</script>

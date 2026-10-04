@@ -1,0 +1,10 @@
+---
+import type { Content } from '../lib/content';
+interface Props { content: Content; asset: NonNullable<Content['site']['demo']> }
+const { content: c, asset } = Astro.props;
+const ownershipKey = { own: 'ownAsset', partner: 'partnerAsset', client: 'clientAsset' }[asset.ownership];
+---
+<figure class="asset">
+  {asset.kind === 'image' ? <img src={asset.src} alt={asset.alt} width={asset.width} height={asset.height} loading="lazy" decoding="async" /> : <video src={asset.src} width={asset.width} height={asset.height} controls preload="none" aria-label={asset.alt} />}
+  <figcaption class="small-note">{c.t(ownershipKey)} · {asset.alt}</figcaption>
+</figure>

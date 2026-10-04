@@ -1,0 +1,10 @@
+[
+  { "id": "ce", "isPlaceholder": true, "name": "CE — EN 71, EN 62368", "market": "EU — AI Toys / Office Assistants", "status": "in-progress", "holder": "To be confirmed per model" },
+  { "id": "fcc", "isPlaceholder": true, "name": "FCC Part 15", "market": "US", "status": "in-progress", "holder": "To be confirmed per model" },
+  { "id": "ukca", "isPlaceholder": true, "name": "UKCA", "market": "UK", "status": "in-progress", "holder": "To be confirmed per model" },
+  { "id": "rohs", "isPlaceholder": true, "name": "RoHS", "market": "EU / US", "status": "in-progress", "holder": "To be confirmed per model" },
+  { "id": "reach", "isPlaceholder": true, "name": "REACH", "market": "EU", "status": "in-progress", "holder": "To be confirmed per model" },
+  { "id": "un38", "isPlaceholder": true, "name": "UN38.3 — battery transport", "market": "Global", "status": "in-progress", "holder": "To be confirmed per model" },
+  { "id": "cpsia", "isPlaceholder": true, "name": "CPSIA", "market": "US — AI Toys, under 12", "status": "in-progress", "holder": "To be confirmed per model" },
+  { "id": "en18031", "isPlaceholder": true, "name": "EN 18031 — radio equipment", "market": "EU — AI Glasses", "status": "in-progress", "holder": "To be confirmed per model" }
+]

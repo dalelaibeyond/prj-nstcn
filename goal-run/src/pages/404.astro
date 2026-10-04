@@ -1,0 +1,8 @@
+---
+import { loadContent } from '../lib/content';
+import Layout from '../layouts/Layout.astro';
+import PageIntro from '../components/PageIntro.astro';
+export const prerender = true;
+const c = await loadContent();
+---
+<Layout content={c} title={c.t('notFoundTitle')} description={c.t('notFoundDescription')}><PageIntro content={c} title={c.t('notFoundTitle')} eyebrow={c.t('home')} description={c.t('notFoundDescription')} /><div class="container section"><a href="/" class="button">{c.t('returnHome')}</a></div></Layout>

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "main",
+    "isPlaceholder": true,
+    "demo": null,
+    "teamPhoto": null,
+    "manufacturingPhoto": null,
+    "clientLogos": [],
+    "legalName": "Acme Devices Co., Ltd.",
+    "brandName": "Acme Devices",
+    "domain": "acme-devices.example",
+    "phone": "+1 555 0100 100",
+    "email": "sales@acme-devices.example",
+    "privacyEmail": "privacy@acme-devices.example",
+    "address": "100 Placeholder Industrial Road, Example District, Shenzhen, China",
+    "registrationNumber": "TODO-REG-NO",
+    "establishedYear": "2015",
+    "linkedin": "https://www.linkedin.com/company/placeholder-acme-devices",
+    "whatsapp": { "e164": "15555550100", "prefill": "Hi Acme Devices, I'd like to know more about your AI hardware products." },
+    "navigation": [
+      { "label": "Products", "href": "/products/" },
+      { "label": "Solutions", "href": "/solutions/" },
+      { "label": "Custom", "href": "/custom/" },
+      { "label": "Case Studies", "href": "/case-studies/" },
+      { "label": "Insights", "href": "/insights/" },
+      { "label": "About", "href": "/about/" },
+      { "label": "Contact", "href": "/contact/" }
+    ],
+    "ui": {
+      "skip": "Skip to content", "menu": "Menu", "closeMenu": "Close menu", "primaryNav": "Main navigation", "footerNav": "Explore", "review": "REVIEW VERSION", "reviewNote": "Placeholder identity, products and case studies. Not for publication.",
+      "home": "Home", "contact": "Let's talk", "whatsapp": "WhatsApp", "whatsappNote": "Placeholder WhatsApp number", "email": "Email", "phone": "Phone", "address": "Address", "location": "Shenzhen, China", "map": "Map placeholder — verified location pending", "privacy": "Privacy Policy", "terms": "Terms of Use", "compliance": "Compliance & certifications", "faq": "FAQ", "compare": "Compare product lines", "productLink": "Explore product line", "solutionLink": "Explore the solution", "caseLink": "Read sample case", "insightLink": "Read the article", "backProducts": "All products", "backSolutions": "All solutions", "backCases": "All case studies", "backInsights": "All insights",
+      "heroEyebrow": "AI HARDWARE · PRODUCTS & CUSTOM DEVELOPMENT", "heroTitle": "AI hardware.\nBuilt for your market.", "heroDescription": "AI hardware built on proven large-model platforms, customised for your market and delivered under your brand.", "heroSupport": "Toys, office assistants and glasses from a China-based product and solutions company. Custom development, private label and delivery coordination.", "heroPrimary": "Explore our products", "heroSecondary": "Discuss a custom project", "heroDemo": "Live device demo — coming soon.", "heroDemoNote": "Real device footage will replace this illustration.", "illustration": "Concept illustration · not a product photograph", "illustrationLabel": "AI hardware product line concept illustration",
+      "productsEyebrow": "THREE PRODUCT LINES", "productsTitle": "Different devices.\nOne connected vision.", "productsDescription": "Toys, office assistants and glasses. Explore a product line, then talk to us about your market.", "solutionsEyebrow": "HARDWARE MEETS THE REAL WORLD", "solutionsTitle": "Start with your scenario.", "solutionsDescription": "Education, smart offices and wearable imaging. See how hardware connects with large-model capabilities.", "customEyebrow": "YOUR PRODUCT. YOUR BRAND.", "customTitle": "Make it yours.", "customDescription": "From hardware adaptation to private label and delivery coordination. Discuss the scope of your project directly with our team.", "customScope": "Scope, schedule and commercial terms are agreed per project. Get in touch to discuss your requirement.", "capabilitiesTitle": "What we can adapt", "capabilitiesDescription": "Five areas of custom development and coordination.", "customCta": "Discuss your requirement", "casesEyebrow": "DELIVERY IN CONTEXT", "casesTitle": "The work behind\nthe possibilities.", "casesDescription": "Illustrative case studies show how the content will be organised. These are placeholder scenarios, not verified deliveries.", "casesAll": "Explore case studies", "sampleCase": "Sample case", "sampleNote": "Illustrative placeholder. Not customer evidence or a performance promise.", "results": "Illustrative result", "clientProfile": "Client profile", "challenge": "Challenge", "solution": "Solution", "deployment": "Deployment scope", "caseCertificates": "Certification documentation", "caseUnknown": "Verified deployment details pending", "caseCertificateNote": "Customer-authorised documentation pending", "logosTitle": "Customer references", "logoPlaceholder": "Authorised customer logo pending", "logosNote": "No customer endorsements are claimed in this review version.",
+      "metricsNote": "Sample metrics — placeholder data.", "insightsEyebrow": "RESOURCES & PERSPECTIVES", "insightsTitle": "A little clarity\nbefore your next step.", "insightsDescription": "Product thinking, compliance topics and a guide to evaluating your next hardware partner.", "insightsAll": "Explore resources", "whitepaper": "Whitepaper pending", "articleNote": "Placeholder editorial outline. Technical and compliance content requires specialist review before publication.", "articleOutline": "What this resource will cover", "aboutEyebrow": "A CHINA-BASED PRODUCT & SOLUTIONS COMPANY", "aboutTitle": "Products, people\nand partnerships.", "aboutDescription": "We design and supply AI hardware products and solutions, working with manufacturing partners to deliver proven platforms under our own brand.", "supplyTitle": "A partner-based supply chain", "supplyDescription": "Product development and supply-chain coordination work alongside manufacturing partners. This review version does not claim an owned factory.", "teamTitle": "The people behind the product", "teamPhoto": "Team photo pending", "factoryPhoto": "Partner manufacturing — photo pending", "teamSize": "200+ employees", "teamNote": "Sample team size — placeholder data.", "milestonesTitle": "Company milestones", "milestonesNote": "Sample milestones — placeholder data.", "registration": "Registration number",
+      "contactEyebrow": "LET'S START A CONVERSATION", "contactTitle": "What are you\nworking on?", "contactDescription": "Tell us about the product, your target market, or the customisation you have in mind.", "contactDetails": "Prefer a direct conversation?", "responseTime": "We reply within 24 hours.", "responseNote": "Placeholder response commitment.", "formTitle": "Contact us", "formRequired": "All five fields are required.", "formSubmit": "Send message", "formSending": "Sending…", "formSuccess": "Your message has been sent. Thank you for getting in touch.", "formFailure": "We could not send your message. Please try again or contact us by email.", "formValidation": "Please check the highlighted fields.", "formInvalidField": "Please enter a valid value.", "formPrivacy": "Your details are used to respond to your inquiry. Read our", "honeypot": "Leave this field empty", "faqEyebrow": "GET TO KNOW US", "faqTitle": "A few questions.\nStraightforward answers.", "faqDescription": "Who we are, what we work on, and how to start a conversation.", "faqCta": "Have a different question?", "certEyebrow": "DOCUMENTATION & MARKET ACCESS", "certTitle": "Clarity on compliance.", "certDescription": "Certification status is listed per model. Documentation for your destination market is available on request.", "certNote": "All statuses in this review version are placeholders. No certifications are claimed as obtained.", "certStandard": "Standard", "certMarket": "Destination / application", "certStatus": "Status", "certHolder": "Certificate holder", "in-progress": "In progress", "obtained": "Obtained", "not-applicable": "Not applicable",
+      "compareEyebrow": "FIND YOUR STARTING POINT", "compareTitle": "Three lines.\nA clearer choice.", "compareDescription": "Compare the intended scenarios and capabilities at product-line level. Verified model specifications will follow.", "filter": "Filter by scenario", "filterAll": "All scenarios", "filterEducation": "Education & retail", "filterOffice": "Office & meetings", "filterWearable": "Wearable & imaging", "compareCaption": "Product-line comparison — placeholder specifications", "compareLine": "Product line", "compareScene": "Target scenario", "compareModel": "Large-model capabilities", "compareInteraction": "Interaction", "compareBattery": "Battery life", "compareCert": "Certification status", "compareCustom": "Customisation", "unconfirmed": "To be confirmed per model", "comparisonHint": "Scroll horizontally to compare all three product lines.", "filterCount": "Product lines shown",
+      "overview": "Overview", "features": "Capabilities", "useCases": "Intended scenarios", "customOptions": "Customisation options", "datasheet": "Datasheet pending", "video": "Real product video pending", "moq": "MOQ and lead time on request", "productMedia": "Product photo pending", "ownAsset": "Own asset", "partnerAsset": "Partner manufacturing", "clientAsset": "Authorised customer asset", "architectureTitle": "From device to response", "architectureNote": "Illustrative architecture. Provider and implementation details depend on the product.", "solutionFocus": "Scenario considerations", "ctaEyebrow": "PRODUCT OR CUSTOM PROJECT", "ctaTitle": "Your next idea\nstarts with a conversation.", "ctaDescription": "Send the form or message us on WhatsApp — we discuss your requirement directly.", "footerDescription": "AI hardware products and solutions. Customised for your market.", "footerNote": "All company information is placeholder content for review.", "rights": "Review version · Not for publication", "legalNote": "Placeholder policy — legal review required before publication.", "notFoundTitle": "This page isn't here.", "notFoundDescription": "Explore our products or return to the home page.", "returnHome": "Back to home"
+    },
+    "formFields": [
+      { "key": "name", "label": "Your name", "placeholder": "Jane Doe", "type": "text", "autocomplete": "name", "maxLength": 120 },
+      { "key": "company", "label": "Company", "placeholder": "Company name", "type": "text", "autocomplete": "organization", "maxLength": 200 },
+      { "key": "phoneWhatsapp", "label": "Phone / WhatsApp", "placeholder": "+65 8123 4567", "type": "tel", "autocomplete": "tel", "maxLength": 60 },
+      { "key": "email", "label": "Email", "placeholder": "you@company.com", "type": "email", "autocomplete": "email", "maxLength": 254 },
+      { "key": "message", "label": "What do you need?", "placeholder": "Tell us about the product, your target market, or the customisation you have in mind.", "type": "textarea", "autocomplete": "off", "maxLength": 5000 }
+    ],
+    "metrics": [
+      { "label": "Years in business", "value": "10+", "isExample": true },
+      { "label": "Products delivered", "value": "120+", "isExample": true },
+      { "label": "Destination markets", "value": "30+", "isExample": true }
+    ],
+    "capabilities": [
+      { "title": "Hardware", "description": "Platform selection and hardware adaptation" },
+      { "title": "Firmware & Software", "description": "Firmware, companion app (iOS / Android), backend" },
+      { "title": "Branding", "description": "Private label, packaging, brand assets" },
+      { "title": "Compliance", "description": "Certification coordination for your target markets" },
+      { "title": "Delivery", "description": "Order coordination, QA and shipping" }
+    ],
+    "architecture": ["Hardware device", "On-device wake / ASR", "Cloud orchestration", "Large-model provider", "Response"],
+    "teamCapabilities": ["Product team", "Supply-chain coordination", "Customisation & branding"],
+    "milestones": [
+      { "year": "2015", "title": "Company established" },
+      { "year": "2018", "title": "First overseas project" },
+      { "year": "2021", "title": "Own-brand initiative" },
+      { "year": "2024", "title": "Three product lines" }
+    ],
+    "faq": [
+      { "question": "What kind of company is Acme Devices?", "answer": "We are a China-based AI hardware product and solutions company. This review version uses a placeholder company identity." },
+      { "question": "Where are you based and how do you supply?", "answer": "Our placeholder location is Shenzhen, China. We work with manufacturing partners and coordinate product development, customisation and delivery." },
+      { "question": "What products do you offer?", "answer": "Our three product lines are AI Toys, AI Office Assistants and AI Glasses. The current catalogue describes product lines; model specifications are still placeholders." },
+      { "question": "Which markets do you serve?", "answer": "Destination markets are to be confirmed. Product documentation and requirements are discussed for your destination market." },
+      { "question": "Can you customise the products?", "answer": "Customisation can cover hardware adaptation, firmware and software, branding, compliance coordination and delivery coordination." },
+      { "question": "Do you work with our brand?", "answer": "Private label, packaging and brand assets are part of the customisation capabilities. Discuss your requirement directly with our team." },
+      { "question": "Which certifications are available?", "answer": "Certification status is listed per model. All statuses in this review version are placeholders marked In progress. Documentation for your destination market is available on request." },
+      { "question": "How does the process start?", "answer": "Send the form or message us on WhatsApp — we discuss your requirement directly." }
+    ],
+    "legal": {
+      "privacy": [
+        { "title": "Who this policy identifies", "body": "Acme Devices Co., Ltd. is a placeholder legal entity in this review version. The legal identity and contact details must be verified before publication." },
+        { "title": "Information in an inquiry", "body": "The contact form asks for your name, company, phone or WhatsApp number, email and message. The inquiry is forwarded by email and is not saved to a website database." },
+        { "title": "Cookies and external services", "body": "This website uses no analytics scripts or non-essential cookies. WhatsApp and email links open external communication services when selected. The mail provider and its processing terms must be documented before publication." },
+        { "title": "Privacy requests", "body": "Privacy contact: privacy@acme-devices.example. Retention, lawful basis, cross-border processing and applicable rights require legal review. This outline is not a final privacy policy." }
+      ],
+      "terms": [
+        { "title": "Review content", "body": "Acme Devices Co., Ltd. and the product, company and case-study information on this website are placeholders for review. Illustrative metrics do not describe verified results." },
+        { "title": "Starting a conversation", "body": "This website introduces product lines and customisation capabilities. Scope, schedule and commercial terms are agreed per project through direct communication." },
+        { "title": "Publication review", "body": "Company identity, intellectual-property notices, applicable law and website terms require legal review before publication. This outline is not final legal advice or a commercial agreement." }
+      ]
+    }
+  }
+]

@@ -1,0 +1,5 @@
+[
+  { "id": "education-toy-retail", "order": 1, "isPlaceholder": true, "title": "Education & Toy Retail", "path": "/solutions/education-toy-retail/", "product": "ai-toys", "description": "Age-graded experiences, content boundaries and parent visibility.", "considerations": ["Age grading", "Content boundaries", "Parent visibility"] },
+  { "id": "smart-office-meetings", "order": 2, "isPlaceholder": true, "title": "Smart Office & Meetings", "path": "/solutions/smart-office-meetings/", "product": "ai-office-assistants", "description": "Meeting records, summaries, action items and deployment options.", "considerations": ["Meeting records", "Summaries & action items", "Deployment options"] },
+  { "id": "wearable-imaging", "order": 3, "isPlaceholder": true, "title": "Wearable & Imaging", "path": "/solutions/wearable-imaging/", "product": "ai-glasses", "description": "First-person capture, live translation and privacy-trigger design.", "considerations": ["First-person capture", "Live translation", "Privacy triggers"] }
+]

@@ -1,0 +1,6 @@
+---
+import type { Content } from '../lib/content';
+interface Props { content: Content }
+const { content: c } = Astro.props;
+---
+<div class="capability-grid">{c.site.capabilities.map((item, i) => <article class="capability"><p class="capability__number" aria-hidden="true">{String(i + 1).padStart(2, '0')}</p><h3>{item.title}</h3><p>{item.description}</p></article>)}</div>

@@ -1,0 +1,6 @@
+---
+import type { Content } from '../lib/content';
+interface Props { content: Content }
+const { content: c } = Astro.props;
+---
+<section class="section"><div class="container"><div class="cta"><div><p class="eyebrow">{c.t('ctaEyebrow')}</p><h2>{c.t('ctaTitle')}</h2><p>{c.t('ctaDescription')}</p></div><a class="button" href="/contact/">{c.t('contact')}<span aria-hidden="true">↗</span></a></div></div></section>

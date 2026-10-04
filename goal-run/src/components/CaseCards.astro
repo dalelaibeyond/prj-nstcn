@@ -1,0 +1,6 @@
+---
+import type { Content } from '../lib/content';
+interface Props { content: Content }
+const { content: c } = Astro.props;
+---
+<div class="card-grid">{c.cases.map(item => <article class="case-card" data-example={String(item.isExample)}><p class="case-card__industry">{item.industry}</p>{item.isExample && <p class="pill sample-pill">{c.t('sampleCase')}</p>}<h3><a href={item.path}>{item.title}</a></h3><p class="case-card__result">{item.results[0]}</p>{item.isExample && <p class="small-note">{c.t('sampleNote')}</p>}<a class="text-link" href={item.path}>{c.t('caseLink')}<span aria-hidden="true">↗</span></a></article>)}</div>

@@ -1,0 +1,34 @@
+---
+import { loadContent } from '../lib/content';
+import { routes } from '../lib/routes';
+import Layout from '../layouts/Layout.astro';
+import PageIntro from '../components/PageIntro.astro';
+import PageBody from '../components/PageBody.astro';
+import Cta from '../components/Cta.astro';
+export const prerender = true;
+export async function getStaticPaths() {
+  const c = await loadContent();
+  return routes(c).map(route => ({ params: { path: route.path }, props: { kind: route.kind, id: route.id } }));
+}
+const { kind, id } = Astro.props;
+const c = await loadContent();
+const { t } = c;
+const prefix: Record<string, string> = { products: 'products', compare: 'compare', solutions: 'solutions', custom: 'custom', 'case-studies': 'cases', about: 'about', insights: 'insights', contact: 'contact', faq: 'faq', compliance: 'cert' };
+let title: string, eyebrow: string, description: string;
+let back: { href: string; label: string } | undefined;
+let sample = false;
+if (prefix[kind]) {
+  title = t(`${prefix[kind]}Title`); eyebrow = t(`${prefix[kind]}Eyebrow`); description = t(`${prefix[kind]}Description`);
+} else if (kind === 'privacy' || kind === 'terms') {
+  title = t(kind); eyebrow = c.site.legalName; description = t('legalNote');
+} else {
+  const item = kind === 'product' ? c.products.find(p => p.id === id)! : kind === 'solution' ? c.solutions.find(p => p.id === id)! : kind === 'case' ? c.cases.find(p => p.id === id)! : c.insights.find(p => p.id === id)!;
+  title = 'name' in item ? item.name : item.title;
+  eyebrow = kind === 'product' ? t('productsEyebrow') : kind === 'solution' ? t('solutionsEyebrow') : 'industry' in item ? item.industry : 'category' in item ? item.category : t('insightsEyebrow');
+  description = 'overview' in item ? item.overview : 'description' in item ? item.description : t('sampleNote');
+  sample = 'isExample' in item && item.isExample;
+  const backLinks = { product: ['/products/', 'backProducts'], solution: ['/solutions/', 'backSolutions'], case: ['/case-studies/', 'backCases'], insight: ['/insights/', 'backInsights'] };
+  const [href, key] = backLinks[kind as keyof typeof backLinks]; back = { href, label: t(key) };
+}
+---
+<Layout content={c} title={title.replace('\n', ' ')} description={description} faq={kind === 'faq'}><PageIntro content={c} title={title} eyebrow={eyebrow} description={description} back={back} sample={sample} /><PageBody content={c} kind={kind} id={id} />{!['contact', 'privacy', 'terms'].includes(kind) && <Cta content={c} />}</Layout>

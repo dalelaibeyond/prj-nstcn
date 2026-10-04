@@ -1,0 +1,37 @@
+---
+interface Props { kind?: string; label: string }
+const { kind = 'system', label } = Astro.props;
+---
+<div class="concept">
+  <svg viewBox="0 0 360 230" role="img" aria-label={label}>
+    {kind === 'ai-toys' ? <>
+      <circle cx="130" cy="55" r="24" class="concept__accent" />
+      <circle cx="230" cy="55" r="24" class="concept__accent" />
+      <rect x="111" y="55" width="138" height="128" rx="54" class="concept__fill" />
+      <circle cx="156" cy="112" r="6" /><circle cx="204" cy="112" r="6" />
+      <path d="M162 136q18 17 36 0M125 183v15M235 183v15" />
+      <path d="M85 90v50M75 104v22M275 90v50M285 104v22" />
+    </> : kind === 'ai-office-assistants' ? <>
+      <rect x="87" y="56" width="186" height="116" rx="16" class="concept__fill" />
+      <rect x="105" y="74" width="150" height="77" rx="6" class="concept__accent" />
+      <path d="M153 172v24h54v-24M120 201h120M130 110v15M146 100v35M162 106v23M178 90v52M194 103v28M210 98v37M226 112v12" />
+    </> : kind === 'ai-glasses' ? <>
+      <path d="M65 92l20-40h190l20 40M68 92h90q22-20 44 0h90" />
+      <rect x="65" y="87" width="98" height="69" rx="24" class="concept__fill" />
+      <rect x="197" y="87" width="98" height="69" rx="24" class="concept__fill" />
+      <path d="M163 111q17-12 34 0M82 103l32 37M213 103l32 37" />
+      <circle cx="277" cy="98" r="5" class="concept__accent" />
+    </> : <>
+      <circle cx="180" cy="113" r="96" stroke-dasharray="4 7" />
+      <circle cx="180" cy="113" r="64" />
+      <path d="M77 44l57 37M280 45l-55 37M175 173v33" />
+      <rect x="139" y="72" width="82" height="82" rx="22" class="concept__fill" />
+      <path d="M161 99h38v29h-38zM151 93h-12M151 106h-12M151 119h-12M151 132h-12M209 93h12M209 106h12M209 119h12M209 132h12" />
+      <rect x="35" y="19" width="58" height="48" rx="13" class="concept__fill" />
+      <circle cx="53" cy="39" r="3" /><circle cx="74" cy="39" r="3" /><path d="M53 52q11 8 21 0" />
+      <rect x="263" y="24" width="63" height="39" rx="7" class="concept__fill" />
+      <path d="M274 37v13M284 32v20M294 36v14M304 32v20M314 39v8" />
+      <rect x="147" y="190" width="28" height="21" rx="6" class="concept__fill" /><rect x="187" y="190" width="28" height="21" rx="6" class="concept__fill" /><path d="M175 197h12" />
+    </>}
+  </svg>
+</div>
