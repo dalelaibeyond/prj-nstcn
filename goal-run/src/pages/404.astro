@@ -2,7 +2,9 @@
 import { loadContent } from '../lib/content';
 import Layout from '../layouts/Layout.astro';
 import PageIntro from '../components/PageIntro.astro';
+import CopyBlocks from '../components/CopyBlocks.astro';
 export const prerender = true;
 const c = await loadContent();
+const copy = c.pages.find(p => p.path === '/404/')!;
 ---
-<Layout content={c} title={c.t('notFoundTitle')} description={c.t('notFoundDescription')}><PageIntro content={c} title={c.t('notFoundTitle')} eyebrow={c.t('home')} description={c.t('notFoundDescription')} /><div class="container section"><a href="/" class="button">{c.t('returnHome')}</a></div></Layout>
+<Layout content={c} title={copy.seoTitle} description={copy.seoDescription}><PageIntro content={c} title={copy.title} eyebrow="NEXSTACK AI" description={copy.description} /><section class="section container"><CopyBlocks blocks={copy.blocks} /></section></Layout>

@@ -2,14 +2,8 @@
 import type { Content } from '../lib/content';
 interface Props { content: Content }
 const { content: c } = Astro.props;
-const rows = [
-  { label: c.t('compareScene'), cells: c.products.map(p => p.overview) },
-  { label: c.t('compareModel'), cells: c.products.map(p => p.modelCapabilities) },
-  { label: c.t('compareInteraction'), cells: c.products.map(p => p.interaction) },
-  { label: c.t('compareBattery'), cells: c.products.map(p => p.battery) },
-  { label: c.t('compareCert'), cells: c.products.map(p => p.certifications.map(id => { const cert = c.certifications.find(item => item.id === id)!; return `${cert.name}: ${c.t(cert.status)} · ${cert.holder}`; }).join('; ')) },
-  { label: c.t('compareCustom'), cells: c.products.map(p => p.customisationOptions.join(' · ')) },
-];
+const table = c.pages.find(p => p.path === '/compare/')!.blocks.find(b => b.type === 'table')!;
+const rows = table.rows!.slice(1).map(row => ({ label: row[0], cells: row.slice(1) }));
 ---
 <div class="filter-control"><label for="scenario-filter">{c.t('filter')}</label><select id="scenario-filter"><option value="all">{c.t('filterAll')}</option><option value="education">{c.t('filterEducation')}</option><option value="office">{c.t('filterOffice')}</option><option value="wearable">{c.t('filterWearable')}</option></select><p class="small-note" role="status" aria-live="polite" data-filter-status data-label={c.t('filterCount')}>{c.t('filterCount')}: {c.products.length}</p></div>
 <p class="small-note">{c.t('comparisonHint')}</p>

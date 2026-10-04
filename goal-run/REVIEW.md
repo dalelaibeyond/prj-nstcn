@@ -1,4 +1,6 @@
-# Review delivery
+# Review delivery — historical baseline
+
+Current NEXSTACK AI content implementation and validation supersede the baseline below. See [2026-10-04 acceptance](../docs/nexstack-review-acceptance-2026-10-04.md).
 
 The user authorised a complete review version and clarified that `docs/spec.md` is reference material rather than an absolute rule. The implementation preserves its useful content, architecture and safeguards without treating missing publication assets as a reason to stop development.
 

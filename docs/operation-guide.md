@@ -1,5 +1,7 @@
 # 官网维护与运维指南
 
+> 2026-10-04 文案回填更新：当前网站已为 NEXSTACK AI 审阅版，邮件真实收件此前已由用户确认。正文/SEO 新增 `src/content/pages.json`，资讯新增全文 `body`，认证增加 `unknown` 状态；旧实现检查、邮件状态和 Git 描述属于历史核查。当前状态以 [本次验收记录](nexstack-review-acceptance-2026-10-04.md) 为准。
+
 核查日期：2026-10-04。适用对象：内容维护人员、开发人员及部署负责人。
 
 本指南依据当前 `goal-run/` 源码、脚本和实际检查结果编写。[spec.md](spec.md) 是需求参考；历史交付与调整见 [REVIEW.md](../goal-run/REVIEW.md)，启动摘要见 [README.md](../goal-run/README.md)。下述服务器配置是建议方案，尚未部署到真实服务器。

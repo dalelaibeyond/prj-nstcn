@@ -1,5 +1,305 @@
 [
-  { "id": "edge-ai-in-consumer-devices", "order": 1, "isPlaceholder": true, "title": "Edge AI in consumer devices", "category": "Industry perspective", "path": "/insights/edge-ai-in-consumer-devices/", "description": "A perspective on hardware and large-model capabilities.", "outline": ["Hardware device", "On-device wake / ASR", "Cloud orchestration", "Large-model provider"] },
-  { "id": "child-safety-standards-ai-toys", "order": 2, "isPlaceholder": true, "title": "Child safety standards for AI toys", "category": "Compliance guide", "path": "/insights/child-safety-standards-ai-toys/", "description": "Age grading, content boundaries and destination-market documentation.", "outline": ["Age grading", "Content boundaries", "CPSIA", "CE — EN 71", "Certification specialist review required"] },
-  { "id": "choosing-a-supplier-checklist", "order": 3, "isPlaceholder": true, "title": "Choosing a supplier: a buyer's checklist", "category": "Buyer guide", "path": "/insights/choosing-a-supplier-checklist/", "description": "Company identity, manufacturing partnerships and verifiable documentation.", "outline": ["Company identity", "Product documentation", "Manufacturing partnerships", "Certificate holders", "Customer-authorised references"] }
+  {
+    "id": "edge-ai-in-consumer-devices",
+    "order": 1,
+    "isPlaceholder": true,
+    "title": "How to brief an AI companion toy project",
+    "category": "Project planning guide",
+    "path": "/insights/briefing-an-ai-companion-toy/",
+    "description": "A companion toy brief should explain the intended users and the experience you want to develop. A clear brief also gives the development team a basis for discussing product requirements and evaluation.",
+    "outline": [
+      "Define the intended users",
+      "Describe the interaction",
+      "Specify content boundaries",
+      "Discuss memory and information",
+      "Include the physical product",
+      "Agree the evaluation",
+      "Bring the brief to your development discussion"
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "text": "Define the intended users",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Write down the age group, intended setting and role of a parent or supervising adult. Include the destination market and any requirements already agreed by your business."
+      },
+      {
+        "type": "heading",
+        "text": "Describe the interaction",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Give a short example of what the user might say or do and the response you expect. Explain which interactions matter most. Ask the development team to confirm which requirements can be supported by the proposed product."
+      },
+      {
+        "type": "heading",
+        "text": "Specify content boundaries",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "List the topics and situations the product should handle carefully. Describe your expectations for inappropriate requests, missing information and adult involvement. These expectations belong in the requirements and evaluation plan."
+      },
+      {
+        "type": "heading",
+        "text": "Discuss memory and information",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Explain what the product should remember, who should control that information and how users should be able to change or remove it. Ask for a clear description of the proposed information handling before agreeing the scope."
+      },
+      {
+        "type": "heading",
+        "text": "Include the physical product",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Bring your design, branding, power and connectivity requirements into the brief. If you have a reference product, explain which parts of it matter to your project. Confirm specifications and sample arrangements with the supplier."
+      },
+      {
+        "type": "heading",
+        "text": "Agree the evaluation",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Prepare representative interactions and define what an acceptable result looks like. Decide which product documents and demonstrations you need to review before proceeding."
+      },
+      {
+        "type": "heading",
+        "text": "Bring the brief to your development discussion",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "You can begin with a short document covering users, interaction, content, memory and product requirements. Mark unanswered questions so they can be discussed explicitly."
+      },
+      {
+        "type": "link",
+        "text": "Discuss a companion toy project",
+        "href": "/contact/",
+        "primary": true
+      },
+      {
+        "type": "link",
+        "text": "AI companion toys",
+        "href": "/products/ai-toys/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Custom development",
+        "href": "/custom/",
+        "primary": false
+      }
+    ]
+  },
+  {
+    "id": "child-safety-standards-ai-toys",
+    "order": 2,
+    "isPlaceholder": true,
+    "title": "What to define before developing an AI office assistant",
+    "category": "Project planning guide",
+    "path": "/insights/defining-an-ai-office-assistant/",
+    "description": "An office assistant project needs a clear description of the work it should support. Start with one task and the people responsible for its output.",
+    "outline": [
+      "Describe the current task",
+      "Identify the information",
+      "Define the requested support",
+      "Set approval and exception requirements",
+      "Discuss deployment and responsibilities",
+      "Agree the evaluation",
+      "Prepare a brief your team can review"
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "text": "Describe the current task",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Write down the steps your team follows today. Identify the input, tools and final output. Explain where people make decisions and what usually causes exceptions."
+      },
+      {
+        "type": "heading",
+        "text": "Identify the information",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "List the documents, records or systems relevant to the task. Note who owns the information, who may access it and how it changes. Use a sanitised example for an initial discussion."
+      },
+      {
+        "type": "heading",
+        "text": "Define the requested support",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Describe what you want the assistant to produce or do at each step. Separate a suggestion for a person to review from an action performed in another system. Ask the development team to confirm the available capability."
+      },
+      {
+        "type": "heading",
+        "text": "Set approval and exception requirements",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Decide which outputs need human review. Explain what should happen when information is incomplete, a tool is unavailable or a request falls outside the task. These requirements should be part of the proposed scope."
+      },
+      {
+        "type": "heading",
+        "text": "Discuss deployment and responsibilities",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Share hosting, data-handling and access requirements. Ask who will operate the system, maintain the information and handle changes. Confirm the proposed dependencies and costs for the arrangement."
+      },
+      {
+        "type": "heading",
+        "text": "Agree the evaluation",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Choose representative examples and the expected result for each one. Include exceptions as well as routine tasks. Define the evidence you need to decide whether the proposed assistant meets the requirement."
+      },
+      {
+        "type": "heading",
+        "text": "Prepare a brief your team can review",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Bring the task, information, review points and evaluation examples into one document. A shared brief gives business and technical decision-makers a concrete basis for the development discussion."
+      },
+      {
+        "type": "link",
+        "text": "Discuss an office assistant",
+        "href": "/contact/",
+        "primary": true
+      },
+      {
+        "type": "link",
+        "text": "AI office assistants",
+        "href": "/products/ai-office-assistants/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Custom development",
+        "href": "/custom/",
+        "primary": false
+      }
+    ]
+  },
+  {
+    "id": "choosing-a-supplier-checklist",
+    "order": 3,
+    "isPlaceholder": true,
+    "title": "Questions to ask an AI development partner",
+    "category": "Project planning guide",
+    "path": "/insights/choosing-a-supplier-checklist/",
+    "description": "Before agreeing an AI product or workflow project, ask for a clear account of the proposed work and the evidence behind it. The answers should help your team decide what to evaluate and who will be responsible.",
+    "outline": [
+      "What has the team actually delivered?",
+      "What is included in the proposed scope?",
+      "How will the work be evaluated?",
+      "Who handles development and production?",
+      "How will information and access be handled?",
+      "What documents and commercial conditions apply?",
+      "Use the answers to prepare your decision"
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "text": "What has the team actually delivered?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Ask for examples relevant to the work you need. Clarify the team's contribution, the scope delivered and which materials the client has authorised for sharing. A workflow example and a hardware delivery example demonstrate different types of work."
+      },
+      {
+        "type": "heading",
+        "text": "What is included in the proposed scope?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Request a written description of features, integrations, documents and deliverables. List the assumptions and items that still need assessment. Agree how changes to the brief will be handled."
+      },
+      {
+        "type": "heading",
+        "text": "How will the work be evaluated?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Discuss demonstrations, sample arrangements and representative tasks. Define the result you expect and the evidence required to review it. For a product, confirm the model and specifications being evaluated."
+      },
+      {
+        "type": "heading",
+        "text": "Who handles development and production?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Clarify who performs software, hardware and manufacturing work. Ask which activities are completed by the team and which involve other parties. Confirm the responsibilities that apply to your project."
+      },
+      {
+        "type": "heading",
+        "text": "How will information and access be handled?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "For an enterprise project, discuss the information involved, permissions, hosting and operating responsibilities. Ask for the proposed arrangement and the conditions affecting it."
+      },
+      {
+        "type": "heading",
+        "text": "What documents and commercial conditions apply?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Confirm the product-specific documentation, price basis, delivery arrangements and ongoing support. Record outstanding questions before agreeing a commitment."
+      },
+      {
+        "type": "heading",
+        "text": "Use the answers to prepare your decision",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Bring the evidence, scope, evaluation and responsibilities into a short review document. Your team can then assess the proposed project against its actual requirement."
+      },
+      {
+        "type": "link",
+        "text": "Discuss your project",
+        "href": "/contact/",
+        "primary": true
+      },
+      {
+        "type": "link",
+        "text": "Custom development",
+        "href": "/custom/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Product documentation",
+        "href": "/compliance/",
+        "primary": false
+      }
+    ]
+  }
 ]

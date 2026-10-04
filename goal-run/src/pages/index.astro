@@ -2,8 +2,8 @@
 import { loadContent } from '../lib/content';
 import Layout from '../layouts/Layout.astro';
 import Home from '../components/Home.astro';
-import Cta from '../components/Cta.astro';
 export const prerender = true;
 const c = await loadContent();
+const copy = c.pages.find(p => p.path === '/')!;
 ---
-<Layout content={c} title={c.t('heroTitle').replace('\n', ' ')} description={c.t('heroDescription')}><Home content={c} /><Cta content={c} /></Layout>
+<Layout content={c} title={copy.seoTitle} description={copy.seoDescription}><Home content={c} /></Layout>

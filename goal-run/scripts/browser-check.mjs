@@ -22,8 +22,8 @@ try {
       new PerformanceObserver(list => list.getEntries().forEach(e => { if (!e.hadRecentInput) window.__vitals.cls += e.value; })).observe({ type: 'layout-shift', buffered: true });
       new PerformanceObserver(list => list.getEntries().forEach(e => window.__vitals.maxLongTask = Math.max(window.__vitals.maxLongTask, e.duration))).observe({ type: 'longtask', buffered: true });
     });
-    for (const path of [...corePaths, ...details]) {
-      const response = await page.goto(base + path); assert.equal(response.status(), 200, `${size.name} ${path}`);
+    for (const path of [...corePaths, ...details, '/missing-review-page/']) {
+      const response = await page.goto(base + path); assert.equal(response.status(), path === '/missing-review-page/' ? 404 : 200, `${size.name} ${path}`);
       await page.waitForLoadState('networkidle');
       const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1);
       assert.equal(overflow, false, `Horizontal page overflow: ${size.name} ${path}`);
@@ -61,7 +61,7 @@ try {
     await page.click('#inquiry-form button'); await page.waitForSelector('[name="email"][aria-invalid="true"]'); assert.equal(await page.locator('#error-email').isVisible(), true);
     await page.unroute('**/api/inquiry/');
     await page.route('**/api/inquiry/', route => route.fulfill({ status: 503, contentType: 'application/json', body: JSON.stringify({ ok: false }) }));
-    await page.click('#inquiry-form button'); await page.waitForFunction(() => document.querySelector('.form-status')?.textContent?.includes('could not send')); assert.match(await page.locator('.form-status').textContent(), /could not send/);
+    await page.click('#inquiry-form button'); await page.waitForFunction(() => document.querySelector('.form-status')?.textContent?.includes('could not be sent')); assert.match(await page.locator('.form-status').textContent(), /could not be sent/);
     await page.unroute('**/api/inquiry/');
     await page.route('**/api/inquiry/', route => route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ ok: true }) }));
     await page.click('#inquiry-form button'); await page.waitForSelector('.form-status[data-state="success"]'); assert.equal(await page.inputValue('[name="email"]'), '');

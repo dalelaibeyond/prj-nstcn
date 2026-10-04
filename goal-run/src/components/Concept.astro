@@ -12,15 +12,15 @@ const { kind = 'system', label } = Astro.props;
       <path d="M162 136q18 17 36 0M125 183v15M235 183v15" />
       <path d="M85 90v50M75 104v22M275 90v50M285 104v22" />
     </> : kind === 'ai-office-assistants' ? <>
-      <rect x="87" y="56" width="186" height="116" rx="16" class="concept__fill" />
-      <rect x="105" y="74" width="150" height="77" rx="6" class="concept__accent" />
-      <path d="M153 172v24h54v-24M120 201h120M130 110v15M146 100v35M162 106v23M178 90v52M194 103v28M210 98v37M226 112v12" />
+      <circle cx="100" cy="110" r="28" class="concept__fill" />
+      <circle cx="260" cy="110" r="28" class="concept__fill" />
+      <rect x="152" y="78" width="56" height="64" rx="12" class="concept__accent" />
+      <path d="M128 110h24M208 110h24M174 98h12M174 110h12M174 122h12" />
     </> : kind === 'ai-glasses' ? <>
       <path d="M65 92l20-40h190l20 40M68 92h90q22-20 44 0h90" />
       <rect x="65" y="87" width="98" height="69" rx="24" class="concept__fill" />
       <rect x="197" y="87" width="98" height="69" rx="24" class="concept__fill" />
       <path d="M163 111q17-12 34 0M82 103l32 37M213 103l32 37" />
-      <circle cx="277" cy="98" r="5" class="concept__accent" />
     </> : <>
       <circle cx="180" cy="113" r="96" stroke-dasharray="4 7" />
       <circle cx="180" cy="113" r="64" />

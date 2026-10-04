@@ -1,0 +1,2080 @@
+[
+  {
+    "id": "home",
+    "isPlaceholder": true,
+    "path": "/",
+    "title": "AI products and custom development for your business.",
+    "description": "Discuss your product idea or business task with our team. Our product directions include AI companion toys, office assistants and AI glasses.",
+    "seoTitle": "AI Toys, Office Assistants & Glasses | NEXSTACK AI",
+    "seoDescription": "Explore AI companion toys, office assistants and AI glasses. Discuss your product requirements and custom AI development with NEXSTACK AI.",
+    "blocks": [
+      {
+        "type": "link",
+        "text": "Discuss your project",
+        "href": "/contact/",
+        "primary": true
+      },
+      {
+        "type": "link",
+        "text": "Explore our products",
+        "href": "/products/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "Choose your starting point",
+        "level": 2
+      },
+      {
+        "type": "heading",
+        "text": "AI companion toys",
+        "level": 3
+      },
+      {
+        "type": "paragraph",
+        "text": "Plan a companion product around your intended users, interaction needs and brand. Discuss content, memory and custom development requirements."
+      },
+      {
+        "type": "link",
+        "text": "Explore companion toys",
+        "href": "/products/ai-toys/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "AI office assistants",
+        "level": 3
+      },
+      {
+        "type": "paragraph",
+        "text": "Define the tasks your team wants an assistant to support. Discuss company information, existing tools and how people will review its work."
+      },
+      {
+        "type": "link",
+        "text": "Explore office assistants",
+        "href": "/products/ai-office-assistants/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "AI glasses",
+        "level": 3
+      },
+      {
+        "type": "paragraph",
+        "text": "Discuss a wearable product around your intended users and target market. Share the interaction, design and product requirements you have in mind."
+      },
+      {
+        "type": "link",
+        "text": "Explore AI glasses",
+        "href": "/products/ai-glasses/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "Custom development around a clear brief",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Share the product or workflow you have in mind. We can discuss hardware, software and AI development requirements, then define the proposed scope."
+      },
+      {
+        "type": "link",
+        "text": "Explore custom development",
+        "href": "/custom/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "Start with the task you need to solve",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "A useful brief explains who will use the product, what it should do and how you will evaluate it. For business workflows, include the tools, information and approval steps involved."
+      },
+      {
+        "type": "link",
+        "text": "Explore project scenarios",
+        "href": "/solutions/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "AI workflow project experience",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Our project experience includes AI Agent workflow development."
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: An authorised project summary showing the task, our contribution and the delivered scope."
+      },
+      {
+        "type": "heading",
+        "text": "Tell us what you are planning",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Describe your product idea or office task. Include your target users and any requirements already agreed within your team."
+      },
+      {
+        "type": "link",
+        "text": "Discuss your project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/home.md"
+  },
+  {
+    "id": "products",
+    "isPlaceholder": true,
+    "path": "/products/",
+    "title": "Explore AI companion toys, office assistants and glasses",
+    "description": "Choose a product direction, then talk to us about your users, required tasks and custom development needs.",
+    "seoTitle": "AI Products & Custom Development | NEXSTACK AI",
+    "seoDescription": "Explore AI companion toys, office assistants and AI glasses, with custom development for business requirements and AI workflows.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "AI companion toys",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "For businesses planning a companion product. Discuss interaction, content, memory and brand requirements before defining the product scope."
+      },
+      {
+        "type": "link",
+        "text": "Explore companion toys",
+        "href": "/products/ai-toys/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "AI office assistants",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "For businesses planning an assistant around office tasks and company information. Discuss the users, tools and review steps involved."
+      },
+      {
+        "type": "link",
+        "text": "Explore office assistants",
+        "href": "/products/ai-office-assistants/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "AI glasses",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "For businesses considering a wearable AI product. Discuss the intended users, product requirements and target market."
+      },
+      {
+        "type": "link",
+        "text": "Explore AI glasses",
+        "href": "/products/ai-glasses/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "AI workflow development",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Have a specific business process in mind? Discuss the steps, tools and approvals your project needs."
+      },
+      {
+        "type": "link",
+        "text": "Discuss workflow development",
+        "href": "/custom/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "Define the product you need",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Send us your brief or describe the requirement in your own words. Product details and project conditions are discussed for the proposed scope."
+      },
+      {
+        "type": "link",
+        "text": "Discuss your project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/products.md"
+  },
+  {
+    "id": "compare",
+    "isPlaceholder": true,
+    "path": "/compare/",
+    "title": "Which direction fits your project?",
+    "description": "Start with the users and tasks you have in mind. Product specifications and availability need to be confirmed for your proposed scope.",
+    "seoTitle": "Compare AI Product Directions | NEXSTACK AI",
+    "seoDescription": "Compare project requirements for AI companion toys, office assistants and AI glasses. Define your users and custom development needs.",
+    "blocks": [
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Consideration",
+            "AI companion toys",
+            "AI office assistants",
+            "AI glasses"
+          ],
+          [
+            "Starting requirement",
+            "A companion product",
+            "An assistant for office tasks",
+            "A wearable AI product"
+          ],
+          [
+            "Brief to prepare",
+            "Age group, interaction, content and brand",
+            "Tasks, information, tools and user roles",
+            "Intended users, interaction, design and market"
+          ],
+          [
+            "Questions to discuss",
+            "Memory and content boundaries",
+            "Information access and review steps",
+            "Intended functions and product constraints"
+          ],
+          [
+            "Product details",
+            "To confirm: Confirm model and specifications",
+            "To confirm: Confirm format and specifications",
+            "To confirm: Confirm model and specifications"
+          ],
+          [
+            "Demonstration",
+            "To confirm: Confirm available materials",
+            "To confirm: Confirm available materials",
+            "To confirm: Confirm available materials"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Have a workflow requirement?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "If your project centres on a business process, share the steps and tools involved. We can discuss it as a custom development requirement."
+      },
+      {
+        "type": "link",
+        "text": "Discuss workflow development",
+        "href": "/custom/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Discuss your project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/compare.md"
+  },
+  {
+    "id": "solutions",
+    "isPlaceholder": true,
+    "path": "/solutions/",
+    "title": "Start with the way your product will be used",
+    "description": "Define the people, tasks and requirements involved. We can discuss which product or development direction fits your project.",
+    "seoTitle": "AI Product & Workflow Scenarios | NEXSTACK AI",
+    "seoDescription": "Plan an AI companion product, office assistant, wearable product or business workflow around your users and development requirements.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Companion product development",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Planning an AI companion product? Start with the intended age group, interaction and content requirements, then define the product and brand brief."
+      },
+      {
+        "type": "link",
+        "text": "Plan a companion product",
+        "href": "/solutions/education-toy-retail/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "AI support for office work",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Choose a specific task your team wants help with. Identify the information the assistant should use and the person who will review its output."
+      },
+      {
+        "type": "link",
+        "text": "Define an office assistant",
+        "href": "/solutions/smart-office-meetings/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "Wearable product development",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Define how the product will be used and the functions your users need. Discuss design, interaction and target-market requirements."
+      },
+      {
+        "type": "link",
+        "text": "Plan a wearable product",
+        "href": "/solutions/wearable-imaging/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "Business workflow development",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Describe a process that involves several steps or tools. Include the trigger, expected output and approval points."
+      },
+      {
+        "type": "link",
+        "text": "Discuss an AI workflow",
+        "href": "/custom/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Discuss your project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/solutions.md"
+  },
+  {
+    "id": "custom",
+    "isPlaceholder": true,
+    "path": "/custom/",
+    "title": "Discuss custom development for your AI project",
+    "description": "Tell us what you want to build and who will use it. We can discuss hardware, software and AI development requirements for your proposed project.",
+    "seoTitle": "Custom AI Product & Workflow Development | NEXSTACK AI",
+    "seoDescription": "Discuss AI product customisation, OEM and ODM requirements, office assistants and business workflows with NEXSTACK AI.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Product and brand requirements",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "For companion toys or office assistants, share the product concept, intended users and changes you need. Branding, hardware and software requirements are assessed against the project scope."
+      },
+      {
+        "type": "heading",
+        "text": "Business information and workflows",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "For an enterprise assistant or workflow, describe the task and the information it needs. Include the tools it should work with and any approvals required."
+      },
+      {
+        "type": "heading",
+        "text": "OEM and ODM discussions",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Contact us about your product specification, branding and manufacturing requirements. The production arrangement, sample plan and commercial conditions need to be agreed for the project."
+      },
+      {
+        "type": "heading",
+        "text": "AI workflow development",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Our project experience includes AI Agent workflow development. For a new requirement, describe the trigger, process steps and expected output. Include the systems involved and the actions that need approval."
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: An authorised workflow project summary showing our actual contribution."
+      },
+      {
+        "type": "heading",
+        "text": "How a project discussion starts",
+        "level": 2
+      },
+      {
+        "type": "list",
+        "items": [
+          "Share the requirement, target users and intended market.",
+          "Review the proposed tasks, product features and constraints with our team.",
+          "Agree the development scope, evaluation criteria and commercial terms before work begins."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Prepare your brief",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Include existing specifications, a target date and any requirements your team has already agreed. For enterprise projects, describe the workflow using a sanitised example."
+      },
+      {
+        "type": "link",
+        "text": "Discuss your project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/custom.md"
+  },
+  {
+    "id": "case-studies",
+    "isPlaceholder": true,
+    "path": "/case-studies/",
+    "title": "AI workflow project experience",
+    "description": "Our project experience includes AI Agent workflow development. Detailed project summaries are being prepared for review.",
+    "seoTitle": "AI Workflow Project Experience | NEXSTACK AI",
+    "seoDescription": "Explore NEXSTACK AI's workflow development direction and discuss a business process or custom AI development requirement.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Project summaries",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Authorised workflow project 01 summary."
+      },
+      {
+        "type": "link",
+        "text": "Review project placeholder 01",
+        "href": "/case-studies/workflow-project-01/",
+        "primary": false
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Authorised workflow project 02 summary."
+      },
+      {
+        "type": "link",
+        "text": "Review project placeholder 02",
+        "href": "/case-studies/workflow-project-02/",
+        "primary": false
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Authorised workflow project 03 summary."
+      },
+      {
+        "type": "link",
+        "text": "Review project placeholder 03",
+        "href": "/case-studies/workflow-project-03/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "Tell us about your workflow",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Describe the process you want to improve, the tools involved and the expected output. We can discuss your development requirements."
+      },
+      {
+        "type": "link",
+        "text": "Discuss your project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/case-studies.md"
+  },
+  {
+    "id": "about",
+    "isPlaceholder": true,
+    "path": "/about/",
+    "title": "AI product and workflow development with NEXSTACK AI",
+    "description": "NEXSTACK AI focuses on AI companion toys, office assistants and AI glasses. Our work also includes custom AI workflow development for business customers.",
+    "seoTitle": "About NEXSTACK AI | AI Product Development",
+    "seoDescription": "Learn about NEXSTACK AI's focus on companion toys, office assistants, AI glasses and custom workflow development for business customers.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "A team focused on development",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Our work brings together software, hardware and AI application development. We discuss requirements around the product or task you want to build."
+      },
+      {
+        "type": "heading",
+        "text": "Our product directions",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Our product directions include AI companion toys, AI office assistants and AI glasses. Custom development starts with the intended users, required tasks and project constraints."
+      },
+      {
+        "type": "heading",
+        "text": "Workflow project experience",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Our experience includes AI Agent workflow development projects."
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: A factual account of the team's contribution, delivered scope and authorised project evidence."
+      },
+      {
+        "type": "heading",
+        "text": "Working with us",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Share your project requirement through our contact form. Include the business context and what you want the product or workflow to do."
+      },
+      {
+        "type": "link",
+        "text": "Discuss your project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/about.md"
+  },
+  {
+    "id": "insights",
+    "isPlaceholder": true,
+    "path": "/insights/",
+    "title": "Prepare a clearer brief for your AI project",
+    "description": "Use these project planning guides to organise your product requirements and questions before contacting a development team.",
+    "seoTitle": "AI Project Planning Guides | NEXSTACK AI",
+    "seoDescription": "Prepare your AI companion toy or office assistant project with practical briefing guides and a development partner checklist.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "How to brief an AI companion toy project",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Define the intended age group, interaction, content and memory requirements for a companion product."
+      },
+      {
+        "type": "link",
+        "text": "Read the companion toy guide",
+        "href": "/insights/briefing-an-ai-companion-toy/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "What to define before developing an AI office assistant",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Choose a task, identify the information involved and decide how users will review the assistant's work."
+      },
+      {
+        "type": "link",
+        "text": "Read the office assistant checklist",
+        "href": "/insights/defining-an-ai-office-assistant/",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "Questions to ask an AI development partner",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Review evidence, scope, responsibilities and evaluation criteria before agreeing a project."
+      },
+      {
+        "type": "link",
+        "text": "Read the partner checklist",
+        "href": "/insights/choosing-a-supplier-checklist/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Discuss your project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/insights.md"
+  },
+  {
+    "id": "contact",
+    "isPlaceholder": true,
+    "path": "/contact/",
+    "title": "Tell us about your AI project",
+    "description": "Share your product idea or business task. Include who will use it, what it should do and any requirements you already have.",
+    "seoTitle": "Contact NEXSTACK AI | Discuss Your AI Project",
+    "seoDescription": "Contact NEXSTACK AI about companion toys, office assistants, AI glasses or custom workflow development. Share your project requirements.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Contact form",
+        "level": 2
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Field",
+            "Label",
+            "Placeholder"
+          ],
+          [
+            "name",
+            "Your name",
+            "Your full name"
+          ],
+          [
+            "company",
+            "Company",
+            "Your company name"
+          ],
+          [
+            "phoneWhatsapp",
+            "Phone or WhatsApp",
+            "Include your country code"
+          ],
+          [
+            "email",
+            "Email",
+            "Your business email address"
+          ],
+          [
+            "message",
+            "Project requirements",
+            "Describe your product idea or office task, target users and any requirements."
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "All fields are required."
+      },
+      {
+        "type": "heading",
+        "text": "Other ways to contact us",
+        "level": 2
+      },
+      {
+        "type": "link",
+        "text": "dalelai0776@gmail.com",
+        "href": "mailto:dalelai0776@gmail.com",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "+66 61 330 6115",
+        "href": "https://wa.me/66613306115",
+        "primary": false
+      },
+      {
+        "type": "heading",
+        "text": "What happens next",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "We review your requirement and discuss the proposed scope. Pricing, development steps and delivery arrangements are agreed for the project."
+      }
+    ],
+    "source": "docs/marketing-copy/contact.md"
+  },
+  {
+    "id": "faq",
+    "isPlaceholder": true,
+    "path": "/faq/",
+    "title": "Questions about products and custom development",
+    "description": "Start here when preparing your product or business workflow requirement.",
+    "seoTitle": "AI Product & Development FAQ | NEXSTACK AI",
+    "seoDescription": "Find answers about AI companion toys, office assistants, AI glasses, custom development and contacting NEXSTACK AI.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What does NEXSTACK AI focus on?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Our product directions include AI companion toys, AI office assistants and AI glasses. Our development work also includes AI Agent workflows."
+      },
+      {
+        "type": "heading",
+        "text": "Who should contact you?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Business decision-makers can contact us about a product idea, office task or custom AI workflow requirement."
+      },
+      {
+        "type": "heading",
+        "text": "Can I request custom development?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Share the product features, software tasks or branding changes you need. The proposed scope and project conditions are discussed before work begins."
+      },
+      {
+        "type": "heading",
+        "text": "Do you discuss OEM and ODM projects?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Yes. Send us your product and manufacturing requirements. The development scope, production arrangement and commercial conditions need to be confirmed for your project."
+      },
+      {
+        "type": "heading",
+        "text": "Can I see a demonstration or request a sample?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Contact us about the product you are considering. Available demonstrations, sample options and product details need to be confirmed for that requirement."
+      },
+      {
+        "type": "heading",
+        "text": "What should I define for a companion toy?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Start with the intended age group, interaction, content and memory requirements. Include the target market and how the product will be evaluated."
+      },
+      {
+        "type": "heading",
+        "text": "Can an office assistant use company information?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Describe the information and tasks involved. We can discuss the required access, permissions and development approach for your project."
+      },
+      {
+        "type": "heading",
+        "text": "What functions do your AI glasses support?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Product functions need to be confirmed for the proposed model. Tell us the wearable tasks, interaction and target market you have in mind."
+      },
+      {
+        "type": "heading",
+        "text": "Can I request a particular deployment arrangement?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Include your hosting and data-handling requirements in the brief. Feasibility, dependencies and costs need to be assessed for the proposed scope."
+      },
+      {
+        "type": "heading",
+        "text": "What are the minimum order quantity and delivery time?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "These need to be confirmed for the product and project scope. Include your expected quantity and target date when you contact us."
+      },
+      {
+        "type": "heading",
+        "text": "Which certifications apply?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Requirements depend on the product, intended users and destination market. Product-specific documentation and its status need to be verified before a supply commitment."
+      },
+      {
+        "type": "heading",
+        "text": "How do I start?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Submit the contact form with your company details and requirement. You can also contact us by email or WhatsApp."
+      },
+      {
+        "type": "link",
+        "text": "Discuss your project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/faq.md"
+  },
+  {
+    "id": "compliance",
+    "isPlaceholder": true,
+    "path": "/compliance/",
+    "title": "Discuss documentation for your product and market",
+    "description": "Tell us the product, intended users and destination market. The required documentation and its status need to be reviewed for the proposed project.",
+    "seoTitle": "Product Documentation & Compliance | NEXSTACK AI",
+    "seoDescription": "Discuss product-specific documentation, intended markets and compliance requirements for your AI product project with NEXSTACK AI.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Product-specific information",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Product model: To confirm: Confirm the model and revision."
+      },
+      {
+        "type": "paragraph",
+        "text": "Intended market: To confirm: Confirm the destination and intended use."
+      },
+      {
+        "type": "paragraph",
+        "text": "Applicable documentation: To confirm: Confirm the document type and scope."
+      },
+      {
+        "type": "paragraph",
+        "text": "Document holder: To confirm: Confirm the named entity."
+      },
+      {
+        "type": "paragraph",
+        "text": "Status and date: To confirm: Verify the current status and supporting record."
+      },
+      {
+        "type": "heading",
+        "text": "Review the details before supply",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Discuss product requirements and available documentation before agreeing the supply scope. Any testing, assessment or documentation work should be defined for the project."
+      },
+      {
+        "type": "link",
+        "text": "Discuss your product requirements",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/compliance.md"
+  },
+  {
+    "id": "privacy",
+    "isPlaceholder": true,
+    "path": "/privacy/",
+    "title": "Privacy Policy",
+    "description": "Last updated: To confirm: Publication date.",
+    "seoTitle": "Privacy Policy | NEXSTACK AI",
+    "seoDescription": "Information about website enquiries, email handling and privacy contacts at NEXSTACK AI.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Who handles your information",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Confirm the entity or individual responsible for the website and enquiries, its address and applicable privacy contact."
+      },
+      {
+        "type": "heading",
+        "text": "Information you provide",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "The contact form asks for your name, company, phone or WhatsApp number, email address and project requirements. You may also provide information when contacting us directly by email or WhatsApp."
+      },
+      {
+        "type": "heading",
+        "text": "How enquiries are handled",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "We use the details you provide to respond to your enquiry and discuss the proposed project. The website forwards contact form submissions by email. It does not save enquiry content to a website database or file."
+      },
+      {
+        "type": "paragraph",
+        "text": "Messages and replies may remain in the email accounts used to handle the enquiry."
+      },
+      {
+        "type": "heading",
+        "text": "Service providers and other recipients",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "The current enquiry setup uses Gmail to send notifications and a Hotmail mailbox to receive them. Email and WhatsApp providers process communications under their own terms."
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Confirm hosting, operational logs, provider entities, other recipients and the final production setup."
+      },
+      {
+        "type": "heading",
+        "text": "Retention",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Define how long enquiries, correspondence and operational records are retained, who can access them, and the deletion process."
+      },
+      {
+        "type": "heading",
+        "text": "Cookies and technical information",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "The current website implementation has no analytics scripts or non-essential cookies. Hosting and server operations may generate technical records."
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Verify the production cookie, logging and hosting configuration and list the technical information actually collected."
+      },
+      {
+        "type": "heading",
+        "text": "International processing",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Describe relevant processing locations, transfers and applicable safeguards based on the confirmed providers and operating entity."
+      },
+      {
+        "type": "heading",
+        "text": "Requests about your information",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Contact us at dalelai0776@gmail.com about your information or this policy."
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Confirm applicable rights, lawful basis where relevant, response procedure and contact responsibilities."
+      },
+      {
+        "type": "heading",
+        "text": "Changes to this policy",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "We will update this page when the website's information practices change."
+      }
+    ],
+    "source": "docs/marketing-copy/privacy.md"
+  },
+  {
+    "id": "terms",
+    "isPlaceholder": true,
+    "path": "/terms/",
+    "title": "Terms of Use",
+    "description": "Last updated: To confirm: Publication date.",
+    "seoTitle": "Terms of Use | NEXSTACK AI",
+    "seoDescription": "Website use and project enquiry information for NEXSTACK AI.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Website operator",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Confirm the website operator's legal identity, address and contact details."
+      },
+      {
+        "type": "heading",
+        "text": "Information on this website",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "This website introduces NEXSTACK AI's product and development directions. Product specifications, availability and project conditions need to be confirmed for the proposed requirement."
+      },
+      {
+        "type": "heading",
+        "text": "Project enquiries",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Sending an enquiry starts a discussion. The development scope, pricing, delivery arrangements and responsibilities are agreed separately before a project begins."
+      },
+      {
+        "type": "heading",
+        "text": "Website materials",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Confirm ownership and permitted use of text, images, videos, product materials and third-party trademarks."
+      },
+      {
+        "type": "heading",
+        "text": "External communication services",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Email and WhatsApp links open external services. Their use is subject to the relevant provider's terms."
+      },
+      {
+        "type": "heading",
+        "text": "Acceptable use",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Confirm appropriate restrictions for misuse of the website and contact service."
+      },
+      {
+        "type": "heading",
+        "text": "Responsibility and applicable terms",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Review any warranties, liability provisions, governing law and dispute arrangements for the operator and target markets."
+      },
+      {
+        "type": "heading",
+        "text": "Contact",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Questions about this website can be sent to dalelai0776@gmail.com."
+      }
+    ],
+    "source": "docs/marketing-copy/terms.md"
+  },
+  {
+    "id": "product-companion-toys",
+    "isPlaceholder": true,
+    "path": "/products/ai-toys/",
+    "title": "Develop an AI companion toy around your users",
+    "description": "Discuss a companion product for your brand or business. Start with the intended age group, interaction and content requirements.",
+    "seoTitle": "AI Companion Toys & Custom Development | NEXSTACK AI",
+    "seoDescription": "Discuss AI companion toy development, intended users, content, memory and branding requirements with NEXSTACK AI.",
+    "blocks": [
+      {
+        "type": "link",
+        "text": "Discuss a companion toy project",
+        "href": "/contact/",
+        "primary": true
+      },
+      {
+        "type": "heading",
+        "text": "Define the companion experience",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Describe how people should interact with the product and what a useful response looks like. Include the situations it should support and the topics it should handle carefully."
+      },
+      {
+        "type": "heading",
+        "text": "Plan content and memory requirements",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Tell us your expectations for age-appropriate content, memory and parent controls. These requirements need to be defined and evaluated within the product scope."
+      },
+      {
+        "type": "heading",
+        "text": "Discuss custom development",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Share your branding, hardware and software requirements. We can discuss the proposed changes and the development work involved."
+      },
+      {
+        "type": "heading",
+        "text": "Product information",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Model and development stage: To confirm: Confirm the current model and availability."
+      },
+      {
+        "type": "paragraph",
+        "text": "Interaction: To confirm: Confirm supported interaction and languages."
+      },
+      {
+        "type": "paragraph",
+        "text": "Memory and content controls: To confirm: Describe implemented features and limits."
+      },
+      {
+        "type": "paragraph",
+        "text": "Power and connectivity: To confirm: Confirm specifications."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sample and product documentation: To confirm: Confirm available materials."
+      },
+      {
+        "type": "heading",
+        "text": "Prepare a product brief",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Include the intended users, target market, preferred interaction and required brand changes. Share any specification or reference you already have."
+      },
+      {
+        "type": "link",
+        "text": "Discuss a companion toy project",
+        "href": "/contact/",
+        "primary": true
+      },
+      {
+        "type": "link",
+        "text": "Custom development",
+        "href": "/custom/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Product planning guide",
+        "href": "/insights/briefing-an-ai-companion-toy/",
+        "primary": false
+      }
+    ],
+    "source": "docs/marketing-copy/product-companion-toys.md"
+  },
+  {
+    "id": "product-office-assistants",
+    "isPlaceholder": true,
+    "path": "/products/ai-office-assistants/",
+    "title": "Plan an AI assistant around your team's work",
+    "description": "Choose a task your team wants to support with AI. We can discuss the information, tools and development requirements involved.",
+    "seoTitle": "AI Office Assistants & Custom Development | NEXSTACK AI",
+    "seoDescription": "Discuss an AI office assistant around your team's tasks, company information, tools and deployment requirements with NEXSTACK AI.",
+    "blocks": [
+      {
+        "type": "link",
+        "text": "Discuss an office assistant",
+        "href": "/contact/",
+        "primary": true
+      },
+      {
+        "type": "heading",
+        "text": "Begin with a specific task",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Describe what your team does today and the output you need. Include who will use the assistant and who should review its work."
+      },
+      {
+        "type": "heading",
+        "text": "Define the company information it needs",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Identify the documents or systems relevant to the task. Discuss access, permissions and how the information will be kept current."
+      },
+      {
+        "type": "heading",
+        "text": "Review the workflow",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "If the task involves several steps, share the order, tools and approvals. We can discuss the proposed workflow and the development scope."
+      },
+      {
+        "type": "heading",
+        "text": "Discuss deployment requirements",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Tell us your hosting, data-handling and operating requirements. The available arrangement, dependencies and cost need to be assessed for your project."
+      },
+      {
+        "type": "heading",
+        "text": "Product information",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Product format: To confirm: Confirm software, hardware or combined format."
+      },
+      {
+        "type": "paragraph",
+        "text": "Supported tasks and tools: To confirm: Confirm actual capabilities."
+      },
+      {
+        "type": "paragraph",
+        "text": "Company information access: To confirm: Confirm implemented approach."
+      },
+      {
+        "type": "paragraph",
+        "text": "Review and permissions: To confirm: Confirm implemented controls."
+      },
+      {
+        "type": "paragraph",
+        "text": "Demonstration and deployment: To confirm: Confirm available version and options."
+      },
+      {
+        "type": "link",
+        "text": "Discuss an office assistant",
+        "href": "/contact/",
+        "primary": true
+      },
+      {
+        "type": "link",
+        "text": "Custom development",
+        "href": "/custom/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Office assistant checklist",
+        "href": "/insights/defining-an-ai-office-assistant/",
+        "primary": false
+      }
+    ],
+    "source": "docs/marketing-copy/product-office-assistants.md"
+  },
+  {
+    "id": "product-ai-glasses",
+    "isPlaceholder": true,
+    "path": "/products/ai-glasses/",
+    "title": "Discuss an AI glasses project for your business",
+    "description": "AI glasses are part of our product direction. Share the wearable tasks, intended users and product requirements you have in mind.",
+    "seoTitle": "AI Glasses & Product Development | NEXSTACK AI",
+    "seoDescription": "Discuss AI glasses, wearable product requirements, branding and custom development with NEXSTACK AI. Confirm functions for your proposed model.",
+    "blocks": [
+      {
+        "type": "link",
+        "text": "Discuss an AI glasses project",
+        "href": "/contact/",
+        "primary": true
+      },
+      {
+        "type": "heading",
+        "text": "Define how the glasses will be used",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Describe the setting, users and tasks. Include your expectations for interaction, comfort and how the product should fit into daily use."
+      },
+      {
+        "type": "heading",
+        "text": "Confirm the product functions",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Discuss the functions your project needs and how they should be evaluated. Supported features and specifications must be confirmed for the proposed model."
+      },
+      {
+        "type": "heading",
+        "text": "Discuss your brand and market",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Share your design, branding and destination-market requirements. The proposed development and supply conditions need to be agreed for the project."
+      },
+      {
+        "type": "heading",
+        "text": "Product information",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Model and development stage: To confirm: Confirm model and availability."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI functions and interaction: To confirm: Confirm supported capabilities."
+      },
+      {
+        "type": "paragraph",
+        "text": "Hardware and connectivity: To confirm: Confirm specifications."
+      },
+      {
+        "type": "paragraph",
+        "text": "Weight, fit and power: To confirm: Confirm specifications."
+      },
+      {
+        "type": "paragraph",
+        "text": "Data handling: To confirm: Confirm actual data flows and controls."
+      },
+      {
+        "type": "paragraph",
+        "text": "Demonstration and documentation: To confirm: Confirm available materials."
+      },
+      {
+        "type": "link",
+        "text": "Discuss an AI glasses project",
+        "href": "/contact/",
+        "primary": true
+      },
+      {
+        "type": "link",
+        "text": "Wearable product planning",
+        "href": "/solutions/wearable-imaging/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Custom development",
+        "href": "/custom/",
+        "primary": false
+      }
+    ],
+    "source": "docs/marketing-copy/product-ai-glasses.md"
+  },
+  {
+    "id": "solution-companion-products",
+    "isPlaceholder": true,
+    "path": "/solutions/education-toy-retail/",
+    "title": "Plan an AI companion product for your users",
+    "description": "For businesses considering a companion toy, a clear brief starts with who will use it and the interaction you want to create.",
+    "seoTitle": "AI Companion Product Planning | NEXSTACK AI",
+    "seoDescription": "Define users, interaction, content, memory and brand requirements for an AI companion product before discussing custom development.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Identify the intended users",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Define the age group, usage setting and role of a parent or other supervising adult. Include the destination market and product expectations."
+      },
+      {
+        "type": "heading",
+        "text": "Describe the interaction",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Write a short example of how the user should interact with the product. Explain what a suitable response looks like and how an unsuitable response should be handled."
+      },
+      {
+        "type": "heading",
+        "text": "Define content and memory requirements",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "List the topics, memory settings and controls you want to discuss. Agree how these requirements will be reviewed before the product is used."
+      },
+      {
+        "type": "heading",
+        "text": "Prepare the product scope",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Bring together your product design, brand requirements and evaluation criteria. Specific features and development conditions need to be confirmed."
+      },
+      {
+        "type": "link",
+        "text": "Explore AI companion toys",
+        "href": "/products/ai-toys/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Discuss a companion toy project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/solution-companion-products.md"
+  },
+  {
+    "id": "solution-office-work",
+    "isPlaceholder": true,
+    "path": "/solutions/smart-office-meetings/",
+    "title": "Define an AI assistant around an office task",
+    "description": "A useful project brief names the task, the information involved and the person who will review the result.",
+    "seoTitle": "AI Office Assistant Planning | NEXSTACK AI",
+    "seoDescription": "Define office tasks, company information, review points and evaluation requirements for a custom AI assistant project.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Map the current work",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Describe how the task is completed today. Include the inputs, tools, expected output and situations that need human judgement."
+      },
+      {
+        "type": "heading",
+        "text": "Identify the information",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "List the documents and systems relevant to the task. Note who owns the information and which users should have access."
+      },
+      {
+        "type": "heading",
+        "text": "Set the review points",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Decide which outputs need approval and what should happen when information is missing. Bring these requirements into the development discussion."
+      },
+      {
+        "type": "heading",
+        "text": "Agree how the task will be evaluated",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Use representative examples and an expected result to define the proposed evaluation. Features, system access and deployment are confirmed within the project scope."
+      },
+      {
+        "type": "link",
+        "text": "Explore AI office assistants",
+        "href": "/products/ai-office-assistants/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Discuss an office assistant",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/solution-office-work.md"
+  },
+  {
+    "id": "solution-wearable-products",
+    "isPlaceholder": true,
+    "path": "/solutions/wearable-imaging/",
+    "title": "Plan an AI wearable around its intended use",
+    "description": "For an AI glasses project, start with the users, setting and tasks. Product functions and specifications need to be confirmed for the model you are considering.",
+    "seoTitle": "AI Glasses & Wearable Product Planning | NEXSTACK AI",
+    "seoDescription": "Define intended use, interaction, design and market requirements for an AI glasses project with NEXSTACK AI.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Describe the usage setting",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Explain when and where the glasses would be used. Include the expected duration of use and the design requirements that matter to your users."
+      },
+      {
+        "type": "heading",
+        "text": "Define interaction and functions",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "List the tasks you want the product to support and how users should interact with it. Separate essential requirements from features you would like to explore."
+      },
+      {
+        "type": "heading",
+        "text": "Discuss data requirements",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "If a requested feature involves personal information, describe the expected handling, user controls and permissions. The actual approach needs to be confirmed in the product scope."
+      },
+      {
+        "type": "heading",
+        "text": "Prepare your market brief",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Include the target market, branding and documentation requirements. Agree the product scope and evaluation before planning supply."
+      },
+      {
+        "type": "link",
+        "text": "Explore AI glasses",
+        "href": "/products/ai-glasses/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Discuss an AI glasses project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/solution-wearable-products.md"
+  },
+  {
+    "id": "case-workflow-01",
+    "isPlaceholder": true,
+    "path": "/case-studies/workflow-project-01/",
+    "title": "Workflow project summary 01 — placeholder",
+    "description": "Project summary placeholder. Client context, delivered scope and evidence need confirmation.",
+    "seoTitle": "Workflow project summary 01 — placeholder | NEXSTACK AI",
+    "seoDescription": "Project summary placeholder. Client context, delivered scope and evidence need confirmation.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Client context",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Client description that may be published, sector, project date and operating context."
+      },
+      {
+        "type": "heading",
+        "text": "The task",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: The actual process, inputs, tools and problem the client asked us to address."
+      },
+      {
+        "type": "heading",
+        "text": "Our contribution",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: The development work performed by the team and the entity or individual that delivered it."
+      },
+      {
+        "type": "heading",
+        "text": "Delivered workflow",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: The implemented steps, integrations, approval points and limits."
+      },
+      {
+        "type": "heading",
+        "text": "Outcome",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Verified deliverables and results. Use qualitative facts when measured outcomes are unavailable."
+      },
+      {
+        "type": "heading",
+        "text": "Project evidence",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Authorised screenshots, records or a factual client statement."
+      },
+      {
+        "type": "link",
+        "text": "Discuss a workflow project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/case-workflow-01.md"
+  },
+  {
+    "id": "case-workflow-02",
+    "isPlaceholder": true,
+    "path": "/case-studies/workflow-project-02/",
+    "title": "Workflow project summary 02 — placeholder",
+    "description": "Project summary placeholder. Client context, delivered scope and evidence need confirmation.",
+    "seoTitle": "Workflow project summary 02 — placeholder | NEXSTACK AI",
+    "seoDescription": "Project summary placeholder. Client context, delivered scope and evidence need confirmation.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Client context",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Publishable client profile, sector, project date and operating setting."
+      },
+      {
+        "type": "heading",
+        "text": "The task",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Current process, information and tools involved."
+      },
+      {
+        "type": "heading",
+        "text": "Our contribution",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Work completed by the team, delivery responsibility and project boundaries."
+      },
+      {
+        "type": "heading",
+        "text": "Delivered workflow",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Implemented steps and systems, review points and deployment scope."
+      },
+      {
+        "type": "heading",
+        "text": "Outcome",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Evidence-supported deliverables, observations or measured results with their timeframe."
+      },
+      {
+        "type": "heading",
+        "text": "Project evidence",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Approved screenshots, client reference or delivery record."
+      },
+      {
+        "type": "link",
+        "text": "Discuss a workflow project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/case-workflow-02.md"
+  },
+  {
+    "id": "case-workflow-03",
+    "isPlaceholder": true,
+    "path": "/case-studies/workflow-project-03/",
+    "title": "Workflow project summary 03 — placeholder",
+    "description": "Project summary placeholder. This slot does not confirm an additional project exists.",
+    "seoTitle": "Workflow project summary 03 — placeholder | NEXSTACK AI",
+    "seoDescription": "Project summary placeholder. This slot does not confirm an additional project exists.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Client context",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Authorised client profile and project context."
+      },
+      {
+        "type": "heading",
+        "text": "The task",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Actual workflow and the client's requirement."
+      },
+      {
+        "type": "heading",
+        "text": "Our contribution",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Team role, work performed and delivery responsibility."
+      },
+      {
+        "type": "heading",
+        "text": "Delivered workflow",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Implemented steps, systems, review and operating limits."
+      },
+      {
+        "type": "heading",
+        "text": "Outcome",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Supported deliverables and any verified results."
+      },
+      {
+        "type": "heading",
+        "text": "Project evidence",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "To confirm: Approved records or media supporting the account."
+      },
+      {
+        "type": "link",
+        "text": "Discuss a workflow project",
+        "href": "/contact/",
+        "primary": true
+      }
+    ],
+    "source": "docs/marketing-copy/case-workflow-03.md"
+  },
+  {
+    "id": "insight-companion-brief",
+    "isPlaceholder": true,
+    "path": "/insights/briefing-an-ai-companion-toy/",
+    "title": "How to brief an AI companion toy project",
+    "description": "A companion toy brief should explain the intended users and the experience you want to develop. A clear brief also gives the development team a basis for discussing product requirements and evaluation.",
+    "seoTitle": "How to Brief an AI Companion Toy Project | NEXSTACK AI",
+    "seoDescription": "Prepare an AI companion toy brief covering users, interaction, content, memory, product requirements and evaluation questions.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Define the intended users",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Write down the age group, intended setting and role of a parent or supervising adult. Include the destination market and any requirements already agreed by your business."
+      },
+      {
+        "type": "heading",
+        "text": "Describe the interaction",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Give a short example of what the user might say or do and the response you expect. Explain which interactions matter most. Ask the development team to confirm which requirements can be supported by the proposed product."
+      },
+      {
+        "type": "heading",
+        "text": "Specify content boundaries",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "List the topics and situations the product should handle carefully. Describe your expectations for inappropriate requests, missing information and adult involvement. These expectations belong in the requirements and evaluation plan."
+      },
+      {
+        "type": "heading",
+        "text": "Discuss memory and information",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Explain what the product should remember, who should control that information and how users should be able to change or remove it. Ask for a clear description of the proposed information handling before agreeing the scope."
+      },
+      {
+        "type": "heading",
+        "text": "Include the physical product",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Bring your design, branding, power and connectivity requirements into the brief. If you have a reference product, explain which parts of it matter to your project. Confirm specifications and sample arrangements with the supplier."
+      },
+      {
+        "type": "heading",
+        "text": "Agree the evaluation",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Prepare representative interactions and define what an acceptable result looks like. Decide which product documents and demonstrations you need to review before proceeding."
+      },
+      {
+        "type": "heading",
+        "text": "Bring the brief to your development discussion",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "You can begin with a short document covering users, interaction, content, memory and product requirements. Mark unanswered questions so they can be discussed explicitly."
+      },
+      {
+        "type": "link",
+        "text": "Discuss a companion toy project",
+        "href": "/contact/",
+        "primary": true
+      },
+      {
+        "type": "link",
+        "text": "AI companion toys",
+        "href": "/products/ai-toys/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Custom development",
+        "href": "/custom/",
+        "primary": false
+      }
+    ],
+    "source": "docs/marketing-copy/insight-companion-brief.md"
+  },
+  {
+    "id": "insight-office-brief",
+    "isPlaceholder": true,
+    "path": "/insights/defining-an-ai-office-assistant/",
+    "title": "What to define before developing an AI office assistant",
+    "description": "An office assistant project needs a clear description of the work it should support. Start with one task and the people responsible for its output.",
+    "seoTitle": "Define an AI Office Assistant Project | NEXSTACK AI",
+    "seoDescription": "Prepare an office assistant brief covering tasks, company information, tools, review points, deployment requirements and evaluation.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "Describe the current task",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Write down the steps your team follows today. Identify the input, tools and final output. Explain where people make decisions and what usually causes exceptions."
+      },
+      {
+        "type": "heading",
+        "text": "Identify the information",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "List the documents, records or systems relevant to the task. Note who owns the information, who may access it and how it changes. Use a sanitised example for an initial discussion."
+      },
+      {
+        "type": "heading",
+        "text": "Define the requested support",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Describe what you want the assistant to produce or do at each step. Separate a suggestion for a person to review from an action performed in another system. Ask the development team to confirm the available capability."
+      },
+      {
+        "type": "heading",
+        "text": "Set approval and exception requirements",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Decide which outputs need human review. Explain what should happen when information is incomplete, a tool is unavailable or a request falls outside the task. These requirements should be part of the proposed scope."
+      },
+      {
+        "type": "heading",
+        "text": "Discuss deployment and responsibilities",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Share hosting, data-handling and access requirements. Ask who will operate the system, maintain the information and handle changes. Confirm the proposed dependencies and costs for the arrangement."
+      },
+      {
+        "type": "heading",
+        "text": "Agree the evaluation",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Choose representative examples and the expected result for each one. Include exceptions as well as routine tasks. Define the evidence you need to decide whether the proposed assistant meets the requirement."
+      },
+      {
+        "type": "heading",
+        "text": "Prepare a brief your team can review",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Bring the task, information, review points and evaluation examples into one document. A shared brief gives business and technical decision-makers a concrete basis for the development discussion."
+      },
+      {
+        "type": "link",
+        "text": "Discuss an office assistant",
+        "href": "/contact/",
+        "primary": true
+      },
+      {
+        "type": "link",
+        "text": "AI office assistants",
+        "href": "/products/ai-office-assistants/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Custom development",
+        "href": "/custom/",
+        "primary": false
+      }
+    ],
+    "source": "docs/marketing-copy/insight-office-brief.md"
+  },
+  {
+    "id": "insight-supplier-checklist",
+    "isPlaceholder": true,
+    "path": "/insights/choosing-a-supplier-checklist/",
+    "title": "Questions to ask an AI development partner",
+    "description": "Before agreeing an AI product or workflow project, ask for a clear account of the proposed work and the evidence behind it. The answers should help your team decide what to evaluate and who will be responsible.",
+    "seoTitle": "AI Development Partner Checklist | NEXSTACK AI",
+    "seoDescription": "Review project evidence, development scope, evaluation, responsibilities and commercial conditions before choosing an AI development partner.",
+    "blocks": [
+      {
+        "type": "heading",
+        "text": "What has the team actually delivered?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Ask for examples relevant to the work you need. Clarify the team's contribution, the scope delivered and which materials the client has authorised for sharing. A workflow example and a hardware delivery example demonstrate different types of work."
+      },
+      {
+        "type": "heading",
+        "text": "What is included in the proposed scope?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Request a written description of features, integrations, documents and deliverables. List the assumptions and items that still need assessment. Agree how changes to the brief will be handled."
+      },
+      {
+        "type": "heading",
+        "text": "How will the work be evaluated?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Discuss demonstrations, sample arrangements and representative tasks. Define the result you expect and the evidence required to review it. For a product, confirm the model and specifications being evaluated."
+      },
+      {
+        "type": "heading",
+        "text": "Who handles development and production?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Clarify who performs software, hardware and manufacturing work. Ask which activities are completed by the team and which involve other parties. Confirm the responsibilities that apply to your project."
+      },
+      {
+        "type": "heading",
+        "text": "How will information and access be handled?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "For an enterprise project, discuss the information involved, permissions, hosting and operating responsibilities. Ask for the proposed arrangement and the conditions affecting it."
+      },
+      {
+        "type": "heading",
+        "text": "What documents and commercial conditions apply?",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Confirm the product-specific documentation, price basis, delivery arrangements and ongoing support. Record outstanding questions before agreeing a commitment."
+      },
+      {
+        "type": "heading",
+        "text": "Use the answers to prepare your decision",
+        "level": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "Bring the evidence, scope, evaluation and responsibilities into a short review document. Your team can then assess the proposed project against its actual requirement."
+      },
+      {
+        "type": "link",
+        "text": "Discuss your project",
+        "href": "/contact/",
+        "primary": true
+      },
+      {
+        "type": "link",
+        "text": "Custom development",
+        "href": "/custom/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Product documentation",
+        "href": "/compliance/",
+        "primary": false
+      }
+    ],
+    "source": "docs/marketing-copy/insight-supplier-checklist.md"
+  },
+  {
+    "id": "not-found",
+    "isPlaceholder": true,
+    "path": "/404/",
+    "title": "We couldn't find this page",
+    "description": "The address may have changed. Explore our products or return to the homepage.",
+    "seoTitle": "Page Not Found | NEXSTACK AI",
+    "seoDescription": "Return to NEXSTACK AI products or the homepage.",
+    "blocks": [
+      {
+        "type": "link",
+        "text": "Explore our products",
+        "href": "/products/",
+        "primary": true
+      },
+      {
+        "type": "link",
+        "text": "Return to the homepage",
+        "href": "/",
+        "primary": false
+      },
+      {
+        "type": "link",
+        "text": "Contact our team",
+        "href": "/contact/",
+        "primary": false
+      }
+    ],
+    "source": "docs/marketing-copy/not-found.md"
+  }
+]

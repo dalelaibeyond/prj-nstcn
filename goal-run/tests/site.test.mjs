@@ -23,5 +23,5 @@ test('review placeholders are retained and the production gate refuses them', as
   const cases = JSON.parse(await readFile('src/content/cases.json', 'utf8'));
   assert.ok(cases.every(c => c.isExample && c.isPlaceholder && c.quote === null));
   const certifications = JSON.parse(await readFile('src/content/certifications.json', 'utf8'));
-  assert.ok(certifications.every(c => c.status === 'in-progress' && c.holder));
+  assert.ok(certifications.every(c => c.status === 'unknown' && c.holder));
 });

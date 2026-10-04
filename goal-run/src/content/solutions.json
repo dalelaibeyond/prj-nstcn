@@ -1,5 +1,47 @@
 [
-  { "id": "education-toy-retail", "order": 1, "isPlaceholder": true, "title": "Education & Toy Retail", "path": "/solutions/education-toy-retail/", "product": "ai-toys", "description": "Age-graded experiences, content boundaries and parent visibility.", "considerations": ["Age grading", "Content boundaries", "Parent visibility"] },
-  { "id": "smart-office-meetings", "order": 2, "isPlaceholder": true, "title": "Smart Office & Meetings", "path": "/solutions/smart-office-meetings/", "product": "ai-office-assistants", "description": "Meeting records, summaries, action items and deployment options.", "considerations": ["Meeting records", "Summaries & action items", "Deployment options"] },
-  { "id": "wearable-imaging", "order": 3, "isPlaceholder": true, "title": "Wearable & Imaging", "path": "/solutions/wearable-imaging/", "product": "ai-glasses", "description": "First-person capture, live translation and privacy-trigger design.", "considerations": ["First-person capture", "Live translation", "Privacy triggers"] }
+  {
+    "id": "education-toy-retail",
+    "order": 1,
+    "isPlaceholder": true,
+    "title": "Plan an AI companion product for your users",
+    "path": "/solutions/education-toy-retail/",
+    "product": "ai-toys",
+    "description": "For businesses considering a companion toy, a clear brief starts with who will use it and the interaction you want to create.",
+    "considerations": [
+      "Define the age group, usage setting and role of a parent or other supervising adult. Include the destination market and product expectations.",
+      "Write a short example of how the user should interact with the product. Explain what a suitable response looks like and how an unsuitable response should be handled.",
+      "List the topics, memory settings and controls you want to discuss. Agree how these requirements will be reviewed before the product is used.",
+      "Bring together your product design, brand requirements and evaluation criteria. Specific features and development conditions need to be confirmed."
+    ]
+  },
+  {
+    "id": "smart-office-meetings",
+    "order": 2,
+    "isPlaceholder": true,
+    "title": "Define an AI assistant around an office task",
+    "path": "/solutions/smart-office-meetings/",
+    "product": "ai-office-assistants",
+    "description": "A useful project brief names the task, the information involved and the person who will review the result.",
+    "considerations": [
+      "Describe how the task is completed today. Include the inputs, tools, expected output and situations that need human judgement.",
+      "List the documents and systems relevant to the task. Note who owns the information and which users should have access.",
+      "Decide which outputs need approval and what should happen when information is missing. Bring these requirements into the development discussion.",
+      "Use representative examples and an expected result to define the proposed evaluation. Features, system access and deployment are confirmed within the project scope."
+    ]
+  },
+  {
+    "id": "wearable-imaging",
+    "order": 3,
+    "isPlaceholder": true,
+    "title": "Plan an AI wearable around its intended use",
+    "path": "/solutions/wearable-imaging/",
+    "product": "ai-glasses",
+    "description": "For an AI glasses project, start with the users, setting and tasks. Product functions and specifications need to be confirmed for the model you are considering.",
+    "considerations": [
+      "Explain when and where the glasses would be used. Include the expected duration of use and the design requirements that matter to your users.",
+      "List the tasks you want the product to support and how users should interact with it. Separate essential requirements from features you would like to explore.",
+      "If a requested feature involves personal information, describe the expected handling, user controls and permissions. The actual approach needs to be confirmed in the product scope.",
+      "Include the target market, branding and documentation requirements. Agree the product scope and evaluation before planning supply."
+    ]
+  }
 ]

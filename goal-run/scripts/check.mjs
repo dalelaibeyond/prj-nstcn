@@ -1,4 +1,5 @@
 import { readFile } from 'node:fs/promises';
+import { parseEnv } from 'node:util';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { load } from 'cheerio';
@@ -74,7 +75,10 @@ export async function checkBuild() {
   ];
   for (const [fg, bg] of pairs) { const ratio = contrast(tokens[`--color-${fg}`], tokens[`--color-${bg}`]); if (ratio < 4.5) errors.push(`Contrast ${fg}/${bg}: ${ratio.toFixed(2)} < 4.5`); }
   const sitemap = await readFile('dist/client/sitemap.xml', 'utf8');
-  for (const path of [...corePaths, ...expected.map(item => item.path)]) if (!sitemap.includes(`${site.domain}${path}</loc>`) && !sitemap.includes(`${process.env.SITE_ORIGIN}${path}</loc>`)) errors.push(`Sitemap missing ${path}`);
+  let fileOrigin;
+  try { fileOrigin = parseEnv(await readFile('.env', 'utf8')).SITE_ORIGIN; } catch (error) { if (error.code !== 'ENOENT') throw error; }
+  const origin = process.env.SITE_ORIGIN || fileOrigin || `https://${site.domain}`;
+  for (const path of [...corePaths, ...expected.map(item => item.path)]) if (!sitemap.includes(`${new URL(path, origin).href}</loc>`)) errors.push(`Sitemap missing ${path}`);
   return { errors, pages: htmlFiles.length, contrastPairs: pairs.length };
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {

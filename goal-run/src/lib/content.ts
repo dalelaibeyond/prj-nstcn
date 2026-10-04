@@ -3,13 +3,16 @@ import { getCollection, getEntry } from 'astro:content';
 export async function loadContent() {
   const site = (await getEntry('site', 'main'))!.data;
   if (!site) throw new Error('Site content is required');
-  const [products, solutions, cases, certifications, insights] = await Promise.all([
-    getCollection('products'), getCollection('solutions'), getCollection('cases'), getCollection('certifications'), getCollection('insights'),
+  const [products, solutions, cases, certifications, insights, pages] = await Promise.all([
+    getCollection('products'), getCollection('solutions'), getCollection('cases'), getCollection('certifications'), getCollection('insights'), getCollection('pages'),
   ]);
   const sort = <T extends { order: number }>(entries: { data: T }[]): T[] => entries.map(e => e.data).sort((a, b) => a.order - b.order);
-  const data = { site, products: sort(products), solutions: sort(solutions), cases: sort(cases), certifications: certifications.map(e => e.data), insights: sort(insights) };
+  const data = { site, products: sort(products), solutions: sort(solutions), cases: sort(cases), certifications: certifications.map(e => e.data), insights: sort(insights), pages: pages.map(e => e.data) };
   for (const product of data.products) for (const id of product.certifications) {
     if (!data.certifications.some(c => c.id === id)) throw new Error(`Unknown certification ${id}`);
+  }
+  for (const route of ['/', ...data.products.map(p => p.path), ...data.solutions.map(p => p.path), ...data.cases.map(p => p.path), ...data.insights.map(p => p.path)]) {
+    if (!data.pages.some(p => p.path === route)) throw new Error(`Missing page copy: ${route}`);
   }
   for (const solution of data.solutions) if (!data.products.some(p => p.id === solution.product)) throw new Error(`Unknown product ${solution.product}`);
   const t = (key: string) => {

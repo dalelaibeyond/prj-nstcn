@@ -1,6 +1,8 @@
-# Acme Devices — review website
+# NEXSTACK AI — review website
 
-A complete English website for local review, built with Astro, plain CSS and design tokens. All content comes from the reference specification's Appendix A or clearly marked editorial outlines derived from it. Company identity, case studies, metrics, contacts and certification statuses are placeholders. The site stays `noindex` and is not approved for public release.
+A complete English NEXSTACK AI review website, built with Astro, plain CSS and design tokens. The source is the approved working draft in `../docs/marketing-copy/`, with identity and factual boundaries from `../.agents/product-marketing.md`. Product specifications, demonstrations, project evidence and legal details remain explicitly unconfirmed. The site stays `noindex` and is not approved for public release.
+
+Latest acceptance record: [NEXSTACK AI review acceptance](../docs/nexstack-review-acceptance-2026-10-04.md).
 
 ## Run locally
 
@@ -17,9 +19,9 @@ Open <http://localhost:4321>. The server listens on all interfaces for a local r
 
 ## Pages
 
-Home, Products, Comparison, Solutions, Custom, Case Studies, About, Insights, Contact and FAQ are implemented. Compliance, Privacy and Terms have separate pages. All three product lines, all three solutions, all three illustrative cases and all three resource outlines have detail pages. A custom 404 page completes the 26-page build.
+Home, Products, Comparison, Solutions, Custom, Case Studies, About, Insights, Contact and FAQ are implemented. Compliance, Privacy and Terms have separate pages. All three product lines, all three solutions, three workflow project evidence slots and three full planning guides have detail pages. A custom 404 page completes the 26-page build.
 
-The shared shell includes navigation, a mobile menu, skip link, footer, placeholder WhatsApp deep link, canonical metadata, English `hreflang`, structured data, sitemap and robots rules. The comparison filter, FAQ disclosures and five-field inquiry form work with native browser JavaScript. There are no third-party scripts, remote fonts or tracking cookies.
+The shared shell includes navigation, a mobile menu, skip link, footer, confirmed public WhatsApp deep link, canonical metadata, English `hreflang`, structured data, sitemap and robots rules. The comparison filter, FAQ disclosures and five-field inquiry form work with native browser JavaScript. There are no third-party scripts, remote fonts or tracking cookies.
 
 ## Validate
 
@@ -40,14 +42,17 @@ Build runs semantic, token, contrast, internal-link and accessibility markup che
 
 Copy `.env.example` to `.env`, then configure SMTP or Resend, a verified `MAIL_FROM`, and `INQUIRY_TO`. The reference development recipient is supplied only as an environment-variable example; it does not appear on public pages. Empty credentials produce an honest generic error rather than a fake success. Logs exclude inquiry details. Requests are never written to a database or file, and Astro sessions are disabled.
 
-`npm run test` submits to the actual built HTTP endpoint and verifies acceptance by a temporary local SMTP server, including the submitter's `Reply-To`. This proves the application mail path, **not** delivery to Gmail or a company mailbox. Real outbound delivery and SPF/DKIM still need valid credentials and domain configuration.
+`npm run test` submits to the actual built HTTP endpoint and verifies acceptance by a temporary local SMTP server, including the submitter's `Reply-To`. This proves the application mail path, **not** delivery to Gmail or a company mailbox. The user previously confirmed receipt in Hotmail using the existing Gmail sender. This content update preserves that configuration and reruns local SMTP acceptance; it does not repeat external delivery. Domain authentication and deployment verification remain publication work.
 
 ## Maintain
 
-- `src/content/*.json`: identity, UI copy, products, solutions, cases, resources and certifications.
+- `src/content/pages.json`: all page headings, public body blocks, SEO titles/descriptions and source-document references. Internal notes are excluded; factual gaps use English “To confirm” notices.
+- `src/content/insights.json`: article listings and full `body` blocks; keep them aligned with the matching page.
+- Other `src/content/*.json`: identity, form copy, related products, scenarios, workflow slots and documentation status.
+- `astro.config.mjs`: five permanent redirects from the replaced case and article paths.
 - `src/content.config.ts`: build-time schemas and model/SKU extension points.
 - `src/styles/tokens.css`: visual decisions; `global.css`: semantic layout rules.
 - `src/components/`: reusable presentation; `src/pages/`: routes and the single inquiry endpoint.
 - `scripts/` and `tests/`: executable checks and integration tests.
 
-See [REVIEW.md](REVIEW.md) for decisions, evidence and remaining publication work. `docs/` and `archive/` are not modified.
+See [REVIEW.md](REVIEW.md) for decisions, evidence and remaining publication work. The older REVIEW record is historical; use the dated acceptance record above for the current content update. Mail credentials in `.env` must not be committed or printed.

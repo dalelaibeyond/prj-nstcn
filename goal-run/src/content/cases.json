@@ -1,5 +1,56 @@
 [
-  { "id": "logistics", "order": 1, "isPlaceholder": true, "isExample": true, "industry": "Logistics", "title": "Warehouse voice assistant deployment", "path": "/case-studies/logistics/", "clientProfile": "Logistics — placeholder industry profile", "challenge": "Verified deployment details pending", "solution": "Warehouse voice assistant deployment", "deploymentScope": "Verified deployment details pending", "results": ["−40% order-picking time"], "certificationsProvided": [], "quote": null },
-  { "id": "education", "order": 2, "isPlaceholder": true, "isExample": true, "industry": "Education", "title": "AI companion for after-school programs", "path": "/case-studies/education/", "clientProfile": "Education — placeholder industry profile", "challenge": "Verified deployment details pending", "solution": "AI companion for after-school programs", "deploymentScope": "Verified deployment details pending", "results": ["3× parent-reported engagement"], "certificationsProvided": [], "quote": null },
-  { "id": "retail", "order": 3, "isPlaceholder": true, "isExample": true, "industry": "Retail", "title": "Try-on assistant for eyewear retail", "path": "/case-studies/retail/", "clientProfile": "Retail — placeholder industry profile", "challenge": "Verified deployment details pending", "solution": "Try-on assistant for eyewear retail", "deploymentScope": "Verified deployment details pending", "results": ["+18% conversion in pilot stores"], "certificationsProvided": [], "quote": null }
+  {
+    "id": "logistics",
+    "order": 1,
+    "isPlaceholder": true,
+    "isExample": true,
+    "industry": "Workflow project template",
+    "title": "Workflow project summary 01 — placeholder",
+    "path": "/case-studies/workflow-project-01/",
+    "clientProfile": "To confirm: Client description that may be published, sector, project date and operating context.",
+    "challenge": "To confirm: The actual process, inputs, tools and problem the client asked us to address.",
+    "solution": "To confirm: The development work performed by the team and the entity or individual that delivered it.",
+    "deploymentScope": "To confirm: The implemented steps, integrations, approval points and limits.",
+    "results": [
+      "To confirm: Verified deliverables and results. Use qualitative facts when measured outcomes are unavailable."
+    ],
+    "certificationsProvided": [],
+    "quote": null
+  },
+  {
+    "id": "education",
+    "order": 2,
+    "isPlaceholder": true,
+    "isExample": true,
+    "industry": "Workflow project template",
+    "title": "Workflow project summary 02 — placeholder",
+    "path": "/case-studies/workflow-project-02/",
+    "clientProfile": "To confirm: Publishable client profile, sector, project date and operating setting.",
+    "challenge": "To confirm: Current process, information and tools involved.",
+    "solution": "To confirm: Work completed by the team, delivery responsibility and project boundaries.",
+    "deploymentScope": "To confirm: Implemented steps and systems, review points and deployment scope.",
+    "results": [
+      "To confirm: Evidence-supported deliverables, observations or measured results with their timeframe."
+    ],
+    "certificationsProvided": [],
+    "quote": null
+  },
+  {
+    "id": "retail",
+    "order": 3,
+    "isPlaceholder": true,
+    "isExample": true,
+    "industry": "Workflow project template",
+    "title": "Workflow project summary 03 — placeholder",
+    "path": "/case-studies/workflow-project-03/",
+    "clientProfile": "To confirm: Authorised client profile and project context.",
+    "challenge": "To confirm: Actual workflow and the client's requirement.",
+    "solution": "To confirm: Team role, work performed and delivery responsibility.",
+    "deploymentScope": "To confirm: Implemented steps, systems, review and operating limits.",
+    "results": [
+      "To confirm: Supported deliverables and any verified results."
+    ],
+    "certificationsProvided": [],
+    "quote": null
+  }
 ]

@@ -1,0 +1,15 @@
+---
+import type { Content } from '../lib/content';
+import { inlineCopy } from '../lib/copy';
+interface Props { blocks: Content['pages'][number]['blocks'] }
+const { blocks } = Astro.props;
+---
+<div class="stack copy-blocks">
+  {blocks.map(b => <>
+    {b.type === 'heading' && (b.level === 3 ? <h3 set:html={inlineCopy(b.text!)} /> : <h2 set:html={inlineCopy(b.text!)} />)}
+    {b.type === 'paragraph' && <p class:list={{ notice: b.text!.includes('To confirm:') }} set:html={inlineCopy(b.text!)} />}
+    {b.type === 'link' && <div class="actions"><a class={b.primary ? 'button' : 'text-link'} href={b.href}>{b.text}<span aria-hidden="true">↗</span></a></div>}
+    {b.type === 'list' && <ol class="list">{b.items!.map(item => <li set:html={inlineCopy(item)} />)}</ol>}
+    {b.type === 'table' && <div class="table-scroll" tabindex="0" role="region" aria-label="Project information"><table><caption>Project information</caption><thead><tr>{b.rows![0].map(cell => <th scope="col" set:html={inlineCopy(cell)} />)}</tr></thead><tbody>{b.rows!.slice(1).map(row => <tr>{row.map((cell, i) => i === 0 ? <th scope="row" set:html={inlineCopy(cell)} /> : <td set:html={inlineCopy(cell)} />)}</tr>)}</tbody></table></div>}
+  </>)}
+</div>
